@@ -8,14 +8,24 @@ const Nav = () => {
   return (
     <div className='header'>
       <Link to={'/'}>
-        <div className='logo-title'>
-          <img src={Logo} alt='dronet Dev Design Logo' className='dronet-logo' />
-          <h3 className='dronet-title'>Ron Dronet | Development | Design</h3>
-        </div>
+        <img src={Logo} alt='Ron Dronet Logo' className='dronet-logo' />
       </Link>
+      <h3 className='dronet-title'>Ron Dronet</h3>
       <ul className='nav-menu'>
         <li>
           <Link to='/'>Home</Link>
+        </li>
+        <li>
+          <Link to='/about'>About</Link>
+        </li>
+        <li>
+          <Link to='/portfolio'>Portfolio</Link>
+        </li>
+        <li>
+          <Link to='/resume'>Resume</Link>
+        </li>
+        <li>
+          <Link to='/contact'>Contact</Link>
         </li>
       </ul>
     </div>

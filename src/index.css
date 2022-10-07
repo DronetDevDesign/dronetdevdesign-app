@@ -3,6 +3,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
+/* ROOT COLOR PALETTE */
+:root {
+  --background-color-white: #ffffff;
+  --accent-color-green: #5BCC15;
+  --accent-color-purple: #411EB5;
+  --accent-color-md-purple: #8A66DB;
+  --accent-color-lt-purple: #a078fc;
+  --accent-color-pale-purple: #b6a6fc;
+  --accent-color-black: #000000;
+  --accent-color-darker-grey: #1b1e22;
+  --accent-color-dark-grey: #2C3036;
+  --accent-color-med-grey: #606974;
+  --accent-color-lt-grey: #A4ACB7;
+  --accent-color-pale-grey: #DFE2E6;
+  --text-color-lt-grey: #ebf1f7;
+}
+
 /* GLOBAL STYLES FOR APP */
 * {
   padding: 0;
