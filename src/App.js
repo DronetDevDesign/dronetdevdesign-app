@@ -1,11 +1,23 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './index.css';
+import Home from './routes/Home';
+import About from './routes/About';
+import Portfolio from './routes/Portfolio';
+import Resume from './routes/Resume';
+import Contact from './routes/Contact';
 
 function App() {
   return (
-    <div>
-      <h1>This is App.js</h1>
-    </div>
+    <>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='About' element={<About />} />
+      <Route path='portfolio' element={<Portfolio />} />
+      <Route path='resume' element={<Resume />} />
+      <Route path='contact' element={<Contact />} />
+    </Routes>
+    </>
   );
 }
 
