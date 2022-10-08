@@ -4,7 +4,6 @@ import './index.css';
 import Home from './routes/Home';
 import About from './routes/About';
 import Portfolio from './routes/Portfolio';
-import Resume from './routes/Resume';
 import Contact from './routes/Contact';
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
       <Route path='/' element={<Home />} />
       <Route path='About' element={<About />} />
       <Route path='portfolio' element={<Portfolio />} />
-      <Route path='resume' element={<Resume />} />
       <Route path='contact' element={<Contact />} />
     </Routes>
     </>

@@ -1,8 +1,17 @@
-header {
-  display: inline;
+/* HEADER & NAVIGATION MENU */
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  background: black;
+  background-color: var(--accent-color-black);
+  padding: 18px 16px 12px 16px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
 }
 
 .dronet-logo {
@@ -12,18 +21,20 @@ header {
 }
 
 .dronet-title {
-  position: relative;
   display: inline-block;
-  top: -11px;
   font-size: 17px;
   font-weight: 500;
+  color: var(--accent-color-lt-purple);
+}
+
+.subtitle {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--accent-color-lt-grey);
 }
 
 .nav-menu {
-  position: relative;
   display: flex;
-  top: -35px;
-  justify-content: flex-end;
 }
 
 .nav-menu li {
@@ -31,6 +42,86 @@ header {
 }
 
 .nav-menu li a {
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--accent-color-lt-grey);
+  text-transform: uppercase;
+  transition: .3s ease-in-out;
 }
+
+.nav-menu li a:hover {
+  color: var(--accent-color-lt-purple);
+}
+
+.nav-menu li a:focus {
+  color: var(--accent-color-lt-purple);
+}
+
+#dronet-resume {
+  border: 1px solid var(--accent-color-green);
+  padding: 4px 15px;
+  transition: .3s ease-in-out;
+}
+
+#dronet-resume:hover{
+  background-color: var(--accent-color-green);
+  color: var(--accent-color-dark-grey);
+}
+
+.hamburger-menu {
+    display: none;
+  }
+/* END HEADER */
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1040px) {
+  .nav-menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--accent-color-black);
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: -3;
+    transition: 0.3s;;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-menu li {
+    padding: 18px 0;
+  }
+
+  .nav-menu li a {
+    font-size: 22px;
+  }
+
+  .nav-menu li a:hover {
+    letter-spacing: 2px;
+  }
+
+  #dronet-resume {
+  border: none;
+  }
+
+  .hamburger-menu {
+    display: initial;
+  }
+}
+
+/* @media screen and (max-width: 769px) {
+
+} */
+
+/* @media screen and (max-width: 481px) {
+
+} */
+
+/* @media screen and (max-width: 320px) {
+
+} */
