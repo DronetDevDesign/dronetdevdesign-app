@@ -23,7 +23,7 @@ img {
   top: 50%;
   left: 50%;
   text-align: center;
-  margin: 125px 0;
+  margin: 145px 0;
 }
 
 .hero-content h1 {
@@ -80,18 +80,18 @@ img {
 }
 
 .hero-content .about-me-text p {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 300;
   padding-top: 15px;
   text-align: left;
-  color: var(--accent-color-pale-grey);
-  line-height: 24px;
+  color: var(--accent-color-lt-grey);
+  line-height: 28px;
 }
 
 .about-me-text {
   margin: auto;
   width: 90%;
-  margin-top: 45px;
+  margin-top: 35px;
 }
 
 @media screen and (max-width: 769px) {
