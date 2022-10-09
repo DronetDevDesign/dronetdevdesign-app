@@ -2,9 +2,9 @@ import './NavStyles.css';
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/dronet-logo.png';
 import Resume from '../assets/ron-dronet-resume-2022.pdf';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import Logo from '../assets/new-dronet-logo.png'
 
 const Nav = () => {
   const [menuClick, setMenuClick] = useState(false);
@@ -12,10 +12,12 @@ const Nav = () => {
   return (
     <div className='header'>
       <div className='logo-section'>
+        <div className='logo'>
+          <img src={Logo} alt="logo" className='new-dronet-logo' />
+        </div>
         <Link to={'/'}>
-          <img src={Logo} alt='Ron Dronet Logo' className='dronet-logo' />
-        </Link>
         <h3 className='dronet-title'>Dronet Dev Design <span className='subtitle'>&nbsp; | &nbsp; Ron Dronet</span></h3>
+        </Link>
       </div>
       <ul className={menuClick ? 'nav-menu active' : 'nav-menu'}>
         <li>
