@@ -111,6 +111,7 @@
 
   .hamburger-menu {
     display: initial;
+    cursor: pointer;
   }
 }
 

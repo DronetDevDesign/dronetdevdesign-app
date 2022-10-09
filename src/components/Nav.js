@@ -2,8 +2,8 @@ import './NavStyles.css';
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../img/dronet-logo.png';
-import Resume from '../img/ron-dronet-resume-2022.pdf';
+import Logo from '../assets/dronet-logo.png';
+import Resume from '../assets/ron-dronet-resume-2022.pdf';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Nav = () => {
