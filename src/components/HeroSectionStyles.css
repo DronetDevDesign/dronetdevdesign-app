@@ -3,7 +3,7 @@ body {
 }
 
 img {
-  margin-bottom: 360px;
+  /* margin-bottom: 360px; */
   height: 100vh;
   width: 100%;
   background-size: cover;
@@ -20,10 +20,10 @@ img {
   width: 80%;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 20%;
   left: 50%;
   text-align: center;
-  margin: 255px 0;
+  margin: 275px 0 0 0;
 }
 
 .hero-content h1 {
@@ -77,21 +77,6 @@ img {
   background-color: var(--accent-color-green);
   color: var(--accent-color-black);
   border: 1px solid var(--accent-color-green);
-}
-
-.hero-content .about-me-text p {
-  font-size: 14px;
-  font-weight: 300;
-  padding-top: 15px;
-  text-align: left;
-  color: var(--accent-color-lt-grey);
-  line-height: 28px;
-}
-
-.about-me-text {
-  margin: auto;
-  width: 90%;
-  margin-top: 35px;
 }
 
 @media screen and (max-width: 769px) {

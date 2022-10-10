@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <div>
       <Nav />
-      <HeroPortfolio />
+      <HeroPortfolio heading='Portfolio' text='Check out my recent projects.' />
       <Footer />
     </div>
   )
