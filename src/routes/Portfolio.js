@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
+import HeroPortfolio from '../components/HeroPortfolio';
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <div>
+      <Nav />
+      <HeroPortfolio />
+      <Footer />
+    </div>
   )
 }
 

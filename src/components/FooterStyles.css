@@ -3,6 +3,8 @@
   padding: 60px 70px;
   background-color: var(--accent-color-darker-grey);
   margin-top: 75px;
+  left: 0;
+  bottom: 0;
 }
 
 .footer-container {
