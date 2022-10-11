@@ -1,13 +1,15 @@
 import React from 'react';
-import Nav from '../components/Nav';
+import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import HeroPortfolio from '../components/HeroPortfolio';
+import Work from '../components/Work';
 
 const Portfolio = () => {
   return (
     <div>
-      <Nav />
+      <Navigation />
       <HeroPortfolio heading='Portfolio' text='Check out my recent projects.' />
+      <Work />
       <Footer />
     </div>
   )
