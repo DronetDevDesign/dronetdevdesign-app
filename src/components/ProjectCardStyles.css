@@ -1,5 +1,7 @@
 .project-container {
   position: relative;
+  /* display: flex;
+  flex-wrap: wrap; */
   width: 1200px;
   margin: auto;
   display: grid;
@@ -26,8 +28,10 @@
 }
 
 .project-text p {
+  font-size: 14px;
   color: var(--accent-color-darker-grey);
-  padding-bottom: 18px;
+  padding-bottom: 22px;
+  line-height: 22px;
 }
 
 .project-buttons {
@@ -71,8 +75,11 @@
 
 @media screen and (max-width: 769px) {
   .project-container {
+    display: block;
     max-width: 90%;
-    margin: auto;
+    /* margin: auto; */
+    margin-bottom: 25px;
     grid-template: 1fr;
+    grid-gap: 40px;
   }
 }
