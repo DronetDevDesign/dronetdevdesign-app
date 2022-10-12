@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Dronet Dev Design Portfolio Website
+## Thank you for visiting my personal website!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Purpose:
 
-## Available Scripts
+This portfolio website was create using React. Here you'll be able to navigate using the menu items to an About, Portfolio, Contact and Resume pages. If you're interested in knowing more please use the form in the contact page.
 
-In the project directory, you can run:
+## Deployed Website Link:
 
-### `npm start`
+## https://dronetdevdesign.github.io/dronetdevdesign-app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Table of contents:**
 
-### `npm test`
+- [Installation](#installation)
+- [Start](#start)
+- [Usage](#usage)
+- [Contribute](#contribute)
+- [Questions](#questions)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
+<div align="left">
+    <img src="./src/assets/dronetdevdesign-website-screenshot.jpg" width="800px" /> 
+</div>
+<br>
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## This Full-stack App Was Created Using:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- HTML 
+- CSS
+- JavaScript
+- React
+- GitHub
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+## Installation:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### To install all packages use this command in the the terminal:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`npm i`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Start:
 
-## Learn More
+### To start use this command in the the terminal: 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`npm start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
+## Usage:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### The respository can be cloned and placed in a folder remotely.
 
-### Analyzing the Bundle Size
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contribute:
 
-### Making a Progressive Web App
+### Please contact me regarding contributing to this repository. All additions must be approved.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<br>
 
-### Advanced Configuration
+## Questions?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### If you have any questions here's how to contact me:
 
-### Deployment
+- Username: DronetDevDesign
+- Repository: https://github.com/DronetDevDesign
+- Email: ron@DronetDevDesign.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
