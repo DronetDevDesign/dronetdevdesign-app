@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dronetdevdesign.github.io/DronetDevDesign/dronetdevdesign-app/",
+  "homepage": "https://dronetdevdesign.github.io/dronetdevdesign-app/",
   "name": "dronetdevdesign-app",
   "version": "0.1.0",
   "private": true,
@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -b main"
+    "deploy": "PUBLIC_URL='https://dronetdevdesign.github.io/dronetdevdesign-app/' gh-pages -d build -b main"
   },
   "eslintConfig": {
     "extends": [
