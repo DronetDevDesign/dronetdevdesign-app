@@ -10,8 +10,8 @@ const ProjectCard = (props) => {
       <div className='project-text'>
         <p>{props.text}</p>
         <div className='project-buttons'>
-          <Link to={props.website} target="_blank" rel="noreferrer" className='url-btn'>View Website</Link>
-          <Link to={props.git} target="_blank" rel="noreferrer" className='git-btn'>Visit Github</Link>
+          {props.external ? <a href={props.website} target="_blank" rel="noreferrer" className='url-btn'>View Website</a> : <Link to={props.website} target="_blank" rel="noreferrer" className='url-btn'>View Website</Link>}
+          {props.external ? <a href={props.git} target="_blank" rel="noreferrer" className='git-btn'>View Github</a> : <Link to={props.git} target="_blank" rel="noreferrer" className='git-btn'>Visit Github</Link>}
         </div>
       </div>
     </div>
