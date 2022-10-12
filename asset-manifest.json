@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dronetdevdesign-app/static/css/main.c7964680.css",
-    "main.js": "/dronetdevdesign-app/static/js/main.62d2c068.js",
+    "main.js": "/dronetdevdesign-app/static/js/main.5c223a9c.js",
     "static/media/hero-section-bkgd.jpg": "/dronetdevdesign-app/static/media/hero-section-bkgd.dd08c1db782cc51d5df1.jpg",
     "static/media/ron-dronet-resume-2022.pdf": "/dronetdevdesign-app/static/media/ron-dronet-resume-2022.23f5bbf50c1cf2e08781.pdf",
     "static/media/krafty-recipes.jpg": "/dronetdevdesign-app/static/media/krafty-recipes.e4d44436f20dc59acb99.jpg",
@@ -11,10 +11,10 @@
     "static/media/weather-bee.jpg": "/dronetdevdesign-app/static/media/weather-bee.74c9a9a4ceefc9666c4b.jpg",
     "index.html": "/dronetdevdesign-app/index.html",
     "main.c7964680.css.map": "/dronetdevdesign-app/static/css/main.c7964680.css.map",
-    "main.62d2c068.js.map": "/dronetdevdesign-app/static/js/main.62d2c068.js.map"
+    "main.5c223a9c.js.map": "/dronetdevdesign-app/static/js/main.5c223a9c.js.map"
   },
   "entrypoints": [
     "static/css/main.c7964680.css",
-    "static/js/main.62d2c068.js"
+    "static/js/main.5c223a9c.js"
   ]
 }
