@@ -16,6 +16,7 @@ const Work = () => {
               text={value.text}
               website={value.website}
               git={value.git}
+              enternal={value.enternal}
             />
           )
         })}
