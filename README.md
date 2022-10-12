@@ -7,7 +7,7 @@ This portfolio website was create using React. Here you'll be able to navigate u
 
 ## Deployed Website Link:
 
-## https://dronetdevdesign.github.io/DronetDevDesign/dronetdevdesign-app/
+## https://dronetdevdesign.github.io/dronetdevdesign-app/
 
 <br>
 
