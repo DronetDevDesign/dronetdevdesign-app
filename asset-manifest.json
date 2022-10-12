@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/DronetDevDesign/dronetdevdesign-app/static/css/main.34fbf5ef.css",
-    "main.js": "/DronetDevDesign/dronetdevdesign-app/static/js/main.921f4318.js",
-    "static/media/hero-section-bkgd.jpg": "/DronetDevDesign/dronetdevdesign-app/static/media/hero-section-bkgd.dd08c1db782cc51d5df1.jpg",
-    "static/media/ron-dronet-resume-2022.pdf": "/DronetDevDesign/dronetdevdesign-app/static/media/ron-dronet-resume-2022.23f5bbf50c1cf2e08781.pdf",
-    "static/media/krafty-recipes.jpg": "/DronetDevDesign/dronetdevdesign-app/static/media/krafty-recipes.e4d44436f20dc59acb99.jpg",
-    "static/media/mood-flix.jpg": "/DronetDevDesign/dronetdevdesign-app/static/media/mood-flix.02d3cd2868f412c5bc77.jpg",
-    "static/media/mercedes-binge.jpg": "/DronetDevDesign/dronetdevdesign-app/static/media/mercedes-binge.2be868285af7c2873ecb.jpg",
-    "static/media/art-garage.jpg": "/DronetDevDesign/dronetdevdesign-app/static/media/art-garage.16042f516b734fa0fc87.jpg",
-    "static/media/weather-bee.jpg": "/DronetDevDesign/dronetdevdesign-app/static/media/weather-bee.74c9a9a4ceefc9666c4b.jpg",
-    "index.html": "/DronetDevDesign/dronetdevdesign-app/index.html",
-    "main.34fbf5ef.css.map": "/DronetDevDesign/dronetdevdesign-app/static/css/main.34fbf5ef.css.map",
-    "main.921f4318.js.map": "/DronetDevDesign/dronetdevdesign-app/static/js/main.921f4318.js.map"
+    "main.css": "/dronetdevdesign-app/static/css/main.c7964680.css",
+    "main.js": "/dronetdevdesign-app/static/js/main.fb72a720.js",
+    "static/media/hero-section-bkgd.jpg": "/dronetdevdesign-app/static/media/hero-section-bkgd.dd08c1db782cc51d5df1.jpg",
+    "static/media/ron-dronet-resume-2022.pdf": "/dronetdevdesign-app/static/media/ron-dronet-resume-2022.23f5bbf50c1cf2e08781.pdf",
+    "static/media/krafty-recipes.jpg": "/dronetdevdesign-app/static/media/krafty-recipes.e4d44436f20dc59acb99.jpg",
+    "static/media/mood-flix.jpg": "/dronetdevdesign-app/static/media/mood-flix.02d3cd2868f412c5bc77.jpg",
+    "static/media/mercedes-binge.jpg": "/dronetdevdesign-app/static/media/mercedes-binge.2be868285af7c2873ecb.jpg",
+    "static/media/art-garage.jpg": "/dronetdevdesign-app/static/media/art-garage.16042f516b734fa0fc87.jpg",
+    "static/media/weather-bee.jpg": "/dronetdevdesign-app/static/media/weather-bee.74c9a9a4ceefc9666c4b.jpg",
+    "index.html": "/dronetdevdesign-app/index.html",
+    "main.c7964680.css.map": "/dronetdevdesign-app/static/css/main.c7964680.css.map",
+    "main.fb72a720.js.map": "/dronetdevdesign-app/static/js/main.fb72a720.js.map"
   },
   "entrypoints": [
-    "static/css/main.34fbf5ef.css",
-    "static/js/main.921f4318.js"
+    "static/css/main.c7964680.css",
+    "static/js/main.fb72a720.js"
   ]
 }
