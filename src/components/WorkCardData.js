@@ -24,7 +24,7 @@ const ProjectCardData = [
   {
     imagesource: projectThree,
     title: 'Art Garage',
-    text: "Here at Art Garage we want to connect artists with potential buyers who are passionate about art. Artists are able to create a profile by introducing themselves by creating a profiling with their info and website link.",
+    text: "Here at Art Garage we want to connect artists with potential buyers who are passionate about art. Artists are able to introduce themselves by creating a profile using information about themselves and their personal website link.",
     website: 'https://art-garage-app.herokuapp.com/',
     git: 'https://github.com/BigEVK/ArtGarage',
     enternal: false
