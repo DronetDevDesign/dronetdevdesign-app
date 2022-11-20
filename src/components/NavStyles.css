@@ -51,6 +51,7 @@
   color: var(--accent-color-lt-grey);
   text-transform: uppercase;
   transition: .3s ease-in-out;
+  cursor: pointer;
 }
 
 .nav-menu li a:hover {
