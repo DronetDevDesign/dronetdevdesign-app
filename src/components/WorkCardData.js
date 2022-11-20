@@ -16,7 +16,7 @@ const ProjectCardData = [
   {
     imagesource: projectTwo,
     title: 'Mood Flix',
-    text: "Here at Art Garage we want to connect artists with potential buyers who are passionate about art. Artists are able to create a profile by introducing themselves by creating a profiling with their info and website link.",
+    text: "Ever wonder what it would be like to choose a movie depending on what type of mood you're in? Well, MoodFlix can help! Simply select a MoodMoji from the dropdown menu to search movies that fit your mood.",
     website: 'https://dronetdevdesign.github.io/Mood-Flix/',
     git: 'https://github.com/DronetDevDesign/Mood-Flix',
     enternal: false
