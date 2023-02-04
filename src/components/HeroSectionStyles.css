@@ -3,6 +3,8 @@ body {
 }
 
 .hero-section {
+  height: 80vh;
+  width: 100%;
   position: relative;
   justify-content: center;
   text-align: center;
