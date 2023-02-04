@@ -6,11 +6,11 @@
 /* ROOT COLOR PALETTE */
 :root {
   --background-color-white: #ffffff;
-  --accent-color-green: #5BCC15;
-  --accent-color-purple: #411EB5;
-  --accent-color-md-purple: #8A66DB;
-  --accent-color-lt-purple: #a078fc;
-  --accent-color-pale-purple: #b6a6fc;
+  --accent-color-green: #CAF906;
+  --accent-color-purple: #4102C9;
+  --accent-color-md-purple: #5214ff;
+  --accent-color-lt-purple: #6d44ff;
+  --accent-color-pale-purple: #aa9aff;
   --accent-color-black: #000000;
   --accent-color-darker-grey: #1b1e22;
   --accent-color-dark-grey: #2C3036;
