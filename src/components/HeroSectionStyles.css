@@ -3,6 +3,8 @@ body {
 }
 
 .hero-section {
+  margin-top: 150px;
+  position: relative;
   height: 80vh;
   width: 100%;
   position: relative;
@@ -13,7 +15,7 @@ body {
 }
 
 .image-container {
-  position: relative;
+  position: absolute;
   background-image: url("/src/assets/full-size-website-background.jpg");
   height: 100vh;
   width: 100%;
@@ -50,7 +52,6 @@ body {
   font-weight: 300;
   text-shadow: 0px 0px 8px black;
   letter-spacing: 1px;
-  /* text-transform: uppercase; */
 }
 
 .portfolio-button {
@@ -60,14 +61,16 @@ body {
   margin: 0 8px 0 0;
   font-size: 16px;
   font-weight: 400;
-  color: var(--accent-color-black);
+  color: var(--accent-color-green);
   text-transform: uppercase;
   transition: 0.3s;
+  box-shadow: 0px 0px 15px black;
 }
 
 .portfolio-button:hover {
   color: var(--accent-color-pale-grey);
-  border: 1px solid var(--accent-color-pale-grey);
+  border: 1px solid var(--accent-color-green);
+  background-color: var(--accent-color-purple);
 }
 
 .contact-button {
@@ -80,6 +83,7 @@ body {
   color: var(--accent-color-pale-grey);
   text-transform: uppercase;
   transition: 0.3s;
+  box-shadow: 0px 0px 15px black;
 }
 
 .contact-button:hover {
@@ -88,25 +92,127 @@ body {
   border: 1px solid var(--accent-color-green);
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 1800px) {
   .hero-content {
-    padding-top: 140%;
+    padding-top: 25%;
    }
+}
+
+@media screen and (max-width: 1200px) {
+  .hero-section {
+    height: 70vh;
+  }
+
+  .hero-content {
+    padding-top: 25%;
+   }
+
+  .image-container {
+    margin-top: 0px;
+    top: -55px;
+  }
 
   .hero-content h1 {
     font-size: 38px;
-    line-height: 63px;
-    padding-top: 20px;
+    line-height: 55px;
   }
 
-  .hero-content p {
-    color: var(--accent-color-green);
+  .hero-content h4 {
+    font-size: 22px;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .hero-content {
+    padding-top: 50%;
+   }
+
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    height: 55vh;
+  }
+
+  .hero-content {
+    padding-top: 35%;
+   }
+
+  .hero-content h1 {
+    font-size: 33px;
+    line-height: 50px;
+    padding-top: 13px;
+  }
+
+  .hero-content h4 {
     font-size: 20px;
-    font-weight: 500;
-    text-shadow: 0px 0px 8px black;
   }
 
   .image-container {
-    padding-top: 200px;
+    top: -150px;
+  }
+
+  .portfolio-button, .contact-button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-section {
+    height: 45vh;
+  }
+
+  .hero-content {
+    padding-top: 20%;
+   }
+
+  .image-container {
+    top: -160px;
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+    line-height: 40px;
+    padding-top: 13px;
+    padding-bottom: 20px;
+  }
+
+  .hero-content h4 {
+    font-size: 16px;
+  }
+
+  .portfolio-button, .contact-button {
+    padding: 8px 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero-section {
+    height: 38vh;
+  }
+
+  .hero-content {
+    padding-top: 20%;
+   }
+
+  .image-container {
+    top: -222px;
+  }
+
+  .hero-content h1 {
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 11px;
+    padding-bottom: 26px;
+    letter-spacing: .05rem;
+  }
+
+  .hero-content h4 {
+    font-size: 12px;
+  }
+
+  .portfolio-button, .contact-button {
+    padding: 6px 16px;
   }
 }
