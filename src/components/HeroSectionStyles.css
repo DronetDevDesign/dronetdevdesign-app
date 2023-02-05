@@ -193,11 +193,11 @@ body {
   }
 
   .hero-content {
-    padding-top: 48%;
+    padding-top: 38%;
    }
 
   .image-container {
-    top: 20px;
+    top: 0px;
     scale: 112%;
   }
 
@@ -205,9 +205,9 @@ body {
     margin: auto;
     width: 100%;
     font-size: 24px;
-    line-height: 40px;
-    padding-top: 16px;
-    padding-bottom: 28px;
+    line-height: 38px;
+    padding-top: 10px;
+    padding-bottom: 25px;
     letter-spacing: .03rem;
   }
 
