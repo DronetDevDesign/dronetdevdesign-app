@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
+    <div className='hero-container'>
     <div className='hero-section'>
       <div className='hero-content'>
         <h4 className='subtitle'>Hi, my name is Ron Dronet and my passion is:</h4>
@@ -14,6 +15,7 @@ const HeroSection = () => {
         <Link to='/contact' className='contact-button'>Contact</Link>
       </div>
       <div className='image-container'></div>
+    </div>
     </div>
   )
 }
