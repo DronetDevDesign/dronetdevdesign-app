@@ -199,7 +199,7 @@ body {
 @media screen and (max-width: 390px) {
   .hero-section {
     margin-bottom: 200px;
-    height: 70vh;
+    height: 80vh;
   }
 
   .hero-content {
@@ -207,8 +207,8 @@ body {
    }
 
   .image-container {
-    top: 70px;
-    scale: 220%;
+    top: 100px;
+    scale: 230%;
   }
 
   .hero-content h1 {
