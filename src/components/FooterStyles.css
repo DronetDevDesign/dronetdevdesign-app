@@ -111,6 +111,39 @@
   font-size: 15px;
 }
 
-/* @media screen and (max-width: 769px) {
+@media screen and (max-width: 576px) {
+  .home-container {
+    display: inline-block;
+    margin-right: none;
+  }
 
-} */
+  .home-container p {
+  font-size: 13px;
+  font-weight: 500;
+  }
+
+  .icons a {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .social-media h4 {
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  .social-icons p {
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .linkedin-icon p {
+  margin-bottom: 20px;
+}
+
+  .github-icon {
+  margin-left: 0px;
+}
+}

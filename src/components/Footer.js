@@ -18,7 +18,7 @@ const Footer = () => {
           <div className='contact-section'>
             <div className='contact-me'>
               <div className='icons'>
-                <a href="mailto:ron@dronetdevdesign.com"><FaMailBulk size={25} style={{ color: '#8A66DB', marginRight: '8px' }} />Please email me directly!</a>
+                <a href="mailto:ron@dronetdevdesign.com"><FaMailBulk size={25} style={{ color: '#8A66DB', marginRight: '8px' }} />Click here to email me directly</a>
               </div>
             </div>
           </div>
