@@ -11,7 +11,7 @@ const Footer = () => {
             <div className='icons'>
               <div className='home-container'>
               <FaHome size={25} style={{ color: '#8A66DB', marginRight: '8px' }} />
-              <p>I am located in Houston, Texas and looking for remote work!</p>
+              I am located in Houston, Texas and looking for remote work!
               </div>
             </div>
           </div>

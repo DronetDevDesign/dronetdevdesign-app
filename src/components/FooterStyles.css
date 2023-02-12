@@ -67,6 +67,9 @@
   text-align: center;
   align-items: center;
   display: flex;
+  color: var(--accent-color-lt-grey);
+  font-weight: 300;
+  font-size: 16px;
 }
 
 .home-container p {
@@ -115,6 +118,8 @@
   .home-container {
     display: inline-block;
     margin-right: none;
+    font-weight: 500;
+  font-size: 13px;
   }
 
   .home-container p {
@@ -139,6 +144,11 @@
 }
 
 @media screen and (max-width: 390px) {
+  .home-container {
+  font-weight: 500;
+  font-size: 13px;
+}
+
   .linkedin-icon p {
   margin-bottom: 20px;
 }
