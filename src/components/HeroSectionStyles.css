@@ -199,15 +199,15 @@ body {
 @media screen and (max-width: 390px) {
   .hero-section {
     margin-bottom: 200px;
-    height: 80vh;
+    height: 90vh;
   }
 
   .hero-content {
-    padding-top: 35%;
+    padding-top: 55%;
    }
 
   .image-container {
-    top: 100px;
+    top: 150px;
     scale: 230%;
   }
 
@@ -215,7 +215,7 @@ body {
     margin: auto;
     width: 100%;
     font-size: 24px;
-    line-height: 38px;
+    line-height: 45px;
     padding-top: 10px;
     padding-bottom: 25px;
     letter-spacing: .03rem;
