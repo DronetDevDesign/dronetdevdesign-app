@@ -5,16 +5,26 @@
   margin-top: 75px;
   left: 0;
   bottom: 0;
+  justify-content: center;
+  text-align: center;
 }
 
 .footer-container {
-  max-width: 1040px;
+  text-align: center;
+  justify-content: center;
+  /* max-width: 1040px; */
   margin: auto;
-  display: flex;
+  display: block;
   flex-wrap: wrap;
 }
 
+.footer-container a {
+  color: var(--accent-color-lt-grey);
+}
+
 .contact {
+  justify-content: center;
+  text-align: center;
   display: block;
   margin-bottom: 30px;
 }
@@ -26,6 +36,7 @@
 .footer p {
   color: var(--accent-color-lt-grey);
   font-weight: 300;
+  font-size: 16px;
 }
 
 .contact-section {
@@ -33,24 +44,71 @@
 }
 
 .icons {
-  display: flex;
   padding-bottom: 10px;
-}
-
-.contact-me p {
-  color: var(--accent-color-lt-grey);
-}
-
-.social-media {
-  display: flex;
   align-items: center;
 }
 
+.icons a {
+  color: var(--accent-color-lt-grey);
+  transition: all .3s;
+}
+
+.icons a:hover {
+  opacity: 45%;
+}
+
+.icons p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.home-container {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.home-container p {
+  font-weight: 300;
+}
 
 .social-media h4 {
   color: var(--accent-color-lt-grey);
-  padding-right: 10px;
   letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.social-icons a {
+  color: var(--accent-color-lt-grey);
+  transition: all .3s;
+}
+
+.social-icons a:hover {
+  opacity: 45%;
+}
+
+.linkedin-icon p {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.github-icon {
+  margin-left: 30px;
+}
+
+.github-icon p {
+  font-weight: 400;
+  font-size: 15px;
 }
 
 /* @media screen and (max-width: 769px) {

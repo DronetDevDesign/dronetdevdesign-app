@@ -21,7 +21,7 @@ const Nav = () => {
       </div>
       <ul className={menuClick ? 'nav-menu active' : 'nav-menu'}>
         <li>
-          <Link to='/'>Home</Link>
+          <Link to='/'>Home</Link>  
         </li>
         <li>
           <Link to='/about'>About</Link>
