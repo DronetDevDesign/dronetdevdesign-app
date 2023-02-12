@@ -203,26 +203,27 @@ body {
   }
 
   .hero-content {
-    padding-top: 55%;
+    padding-top: 60%;
    }
 
   .image-container {
-    top: 150px;
-    scale: 230%;
+    top: 160px;
+    scale: 220%;
   }
 
   .hero-content h1 {
     margin: auto;
     width: 100%;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 45px;
-    padding-top: 10px;
+    padding-top: 7px;
     padding-bottom: 25px;
     letter-spacing: .03rem;
   }
 
   .hero-content h4 {
     font-size: 17px;
+    line-height: 30px;
     font-weight: 300;
     letter-spacing: .03rem;
   }
