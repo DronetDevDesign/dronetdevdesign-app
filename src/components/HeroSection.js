@@ -9,7 +9,7 @@ const HeroSection = () => {
     <div className='hero-container'>
     <div className='hero-section'>
       <div className='hero-content'>
-        <h4 className='subtitle'>Hi, my name is Ron Dronet and I have a passion for:</h4>
+        <h4 className='subtitle'>Hi, my name is Ron Dronet and I have a passion for</h4>
         <h1>Capturing Creativity By Integrating Full-stack Development and Graphic Design.</h1>
         <Link to='/portfolio' className='portfolio-button'>Portfolio</Link>
         <Link to='/contact' className='contact-button'>Contact</Link>
