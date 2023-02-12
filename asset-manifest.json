@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/dronetdevdesign-app/static/css/main.a0ce4f31.css",
-    "main.js": "/dronetdevdesign-app/static/js/main.96da66e9.js",
-    "static/media/full-size-website-background.jpg": "/dronetdevdesign-app/static/media/full-size-website-background.37a2e19e8b0eebc79c73.jpg",
+    "main.css": "/dronetdevdesign-app/static/css/main.58bf93d0.css",
+    "main.js": "/dronetdevdesign-app/static/js/main.f46c5041.js",
+    "static/media/full-size-website-background-03.jpg": "/dronetdevdesign-app/static/media/full-size-website-background-03.d31c533ff45c55fc0432.jpg",
     "static/media/birthday-plan-it-screenshot.jpg": "/dronetdevdesign-app/static/media/birthday-plan-it-screenshot.3d042ec279c7ed01c6ce.jpg",
     "static/media/hero-section-bkgd.jpg": "/dronetdevdesign-app/static/media/hero-section-bkgd.dd08c1db782cc51d5df1.jpg",
     "static/media/ron-dronet-resume-2022.pdf": "/dronetdevdesign-app/static/media/ron-dronet-resume-2022.23f5bbf50c1cf2e08781.pdf",
@@ -11,11 +11,11 @@
     "static/media/art-garage.jpg": "/dronetdevdesign-app/static/media/art-garage.16042f516b734fa0fc87.jpg",
     "static/media/weather-bee.jpg": "/dronetdevdesign-app/static/media/weather-bee.74c9a9a4ceefc9666c4b.jpg",
     "index.html": "/dronetdevdesign-app/index.html",
-    "main.a0ce4f31.css.map": "/dronetdevdesign-app/static/css/main.a0ce4f31.css.map",
-    "main.96da66e9.js.map": "/dronetdevdesign-app/static/js/main.96da66e9.js.map"
+    "main.58bf93d0.css.map": "/dronetdevdesign-app/static/css/main.58bf93d0.css.map",
+    "main.f46c5041.js.map": "/dronetdevdesign-app/static/js/main.f46c5041.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0ce4f31.css",
-    "static/js/main.96da66e9.js"
+    "static/css/main.58bf93d0.css",
+    "static/js/main.f46c5041.js"
   ]
 }
