@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Resume from '../assets/ron-dronet-resume-2022.pdf';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from '../assets/dronet-d-d-logo.png'
+import Logo from '../assets/dronet-dev-design-gradient-logo.png'
 
 const Nav = () => {
   const [menuClick, setMenuClick] = useState(false);
