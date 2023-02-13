@@ -30,7 +30,7 @@ const Nav = () => {
           <Link to='/portfolio'>Portfolio</Link>
         </li>
         <li>
-          <Link to='/contact'>Contact</Link>
+          <a href="mailto:ron@dronetdevdesign.com">Contact</a>
         </li>
         <li>
           <a href={Resume} target="_blank" rel="noreferrer" className='resume-button' id='dronet-resume'>Resume</a>
