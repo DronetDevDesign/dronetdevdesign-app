@@ -18,6 +18,19 @@
   --accent-color-lt-grey: #A4ACB7;
   --accent-color-pale-grey: #DFE2E6;
   --text-color-lt-grey: #ebf1f7;
+  /* NEW COLORS */
+  --darkest-blue: #00023f;
+  --dark-blue: #1b1142;
+  --drk-purple: #301972;
+  --medium-purple: #443464;
+  --drk-magenta: #8b3259;
+  --med-orange: #cc7236;
+  --pale-blue: #E1FBFF;
+  /* BUTTON GRADIENT COLORS */
+  --red-orange: #d94332;
+  --drk-orange: #E45731;
+  --orange: #ea914d;
+  --yellow: #fec60b;
 }
 
 /* GLOBAL STYLES FOR APP */

@@ -16,7 +16,7 @@ const Nav = () => {
           <img src={Logo} alt="logo" className='new-dronet-logo' />
         </div>
         <Link to={'/'}>
-        <h3 className='dronet-title'>Dronet Dev Design <span className='subtitle'>&nbsp; | &nbsp; Ron Dronet</span></h3>
+        <h3 className='dronet-title'>Dronet Development & Design</h3>
         </Link>
       </div>
       <ul className={menuClick ? 'nav-menu active' : 'nav-menu'}>
@@ -37,8 +37,8 @@ const Nav = () => {
         </li>
       </ul>
       <div className='hamburger-menu' onClick={handleClick}>
-        {menuClick ? (<FaTimes size={20} style={{ color: '#A4ACB7' }
-        } />) : (<FaBars size={20} style={{ color: '#A4ACB7' }
+        {menuClick ? (<FaTimes size={20} style={{ color: '#ffffff' }
+        } />) : (<FaBars size={20} style={{ color: '#ffffff' }
         } />)}
       </div>
     </div>
