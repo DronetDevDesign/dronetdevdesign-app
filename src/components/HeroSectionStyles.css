@@ -37,7 +37,7 @@ img {
 }
 
 .hero-content {
-  margin: 45px 0;
+  margin: 65px 0;
   width: 37%;
   position: relative;
   /* border: 3px solid yellow; */
@@ -60,7 +60,7 @@ h1 .thinner-heading {
   color: var(--pale-blue);
   font-size: 34px;
   font-weight: 200;
-  text-shadow: 0px 0px 8px black;
+  /* text-shadow: 0px 0px 8px black; */
   letter-spacing: 1px;
   margin-bottom: 35px;
 }
@@ -85,7 +85,7 @@ h1 .thinner-heading {
   margin: 0 8px 0 0;
   font-size: 16px;
   font-weight: 400;
-  color: var(--background-color-white);
+  color: var(--pale-blue);
   text-transform: uppercase;
   transition: all 0.3s;
   /* box-shadow: 0px 0px 15px black; */
@@ -96,21 +96,21 @@ h1 .thinner-heading {
 }
 
 .contact-button {
-  background-color: rgba(0, 0, 0, 0.2);
+  /* background-color: rgba(0, 0, 0, 0.2); */
   border: 1px solid var(--pale-blue);
-  padding: 10px 20px;
+  padding: 10px 23px;
   border-radius: 5px;
   margin: 0 0 0 20px;
   font-size: 16px;
   font-weight: 300;
-  color: var(--background-color-white);
+  color: var(--pale-blue);
   text-transform: uppercase;
   transition: 0.3s;
   /* box-shadow: 0px 0px 15px black; */
 }
 
 .contact-button:hover {
-  opacity: 40%;
+  opacity: 30%;
 }
 
 /* @media screen and (max-width: 1800px) {
