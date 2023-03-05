@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Resume from '../assets/ron-dronet-resume-2022.pdf';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from '../assets/dronet-dev-design-gradient-logo.png'
+import Logo from '../assets/dronetdevdesign-gradient-logo.png'
 
 const Nav = () => {
   const [menuClick, setMenuClick] = useState(false);
@@ -16,7 +16,7 @@ const Nav = () => {
           <img src={Logo} alt="logo" className='new-dronet-logo' />
         </div>
         <Link to={'/'}>
-        <h3 className='dronet-title'>Dronet Development & Design</h3>
+          <h3 className='dronet-title'><span className='dronet-bold'>Dronet</span> Development & Design</h3>
         </Link>
       </div>
       <ul className={menuClick ? 'nav-menu active' : 'nav-menu'}>
