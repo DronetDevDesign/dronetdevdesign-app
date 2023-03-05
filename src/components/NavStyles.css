@@ -133,16 +133,22 @@
   }
 
   .new-dronet-logo {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   margin-left: 0;
   }
 
+  .dronet-bold {
+  font-size: 14px;
+  padding-right: 1px;
+  padding-left: 2px;
+}
+
   .dronet-title {
   position: relative;
-  top: -2px;
+  top: -1px;
   margin-left: 4px;
-  font-size: 13px;
+  font-size: 14px;
   }
 
   .subtitle {
