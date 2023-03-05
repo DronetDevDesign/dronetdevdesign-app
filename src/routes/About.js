@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div>
       <Navigation />
-      <HeroAbout heading='About Me' text='FULL-stack &nbsp;|&nbsp; FULL-creative &nbsp;|&nbsp; FULL-service!' />
+      <HeroAbout />
       <Footer />
     </div>
   )

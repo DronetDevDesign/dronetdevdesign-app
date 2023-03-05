@@ -1,17 +1,15 @@
 import './HeroAboutStyles.css';
 import React, { Component } from 'react';
-import AboutImage from '../assets/hero-section-bkgd.jpg';
+// import AboutImage from '../assets/hero-section-bkgd.jpg';
 
 class HeroAbout extends Component {
   render() {
     return (
       <div className='about-section'>
-        <div className='about-image'>
-          <img src={AboutImage} alt='AboutImage' />
-          <div className='about-content'>
-          <div className='heading'>
-            <h1>{this.props.heading}</h1>
-            <p>{this.props.text}</p>
+        <div className='about-content'>
+          <div className='heading-about-me'>
+            <h1 className='about-me'>About Me</h1>
+            <p className='about-me-subhead'>FULL-stack  &nbsp;|&nbsp;  FULL-creative  &nbsp;|&nbsp;  FULL-service!</p>
           </div>
           <div className='about-me-text'>
             <p>
@@ -29,7 +27,6 @@ class HeroAbout extends Component {
             <p>
               Moving forward, I will continue to challenge and educate myself, keeping current with the latest trends and software. In the meantime, thank you for taking the time to view my website. If you have any questions, please don't hesitate to contact me.
             </p>
-          </div>
           </div>
         </div>
       </div>

@@ -1,49 +1,48 @@
 .about-section {
-  height: 100%;
-  width: 100%;
-}
-.heading {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
+  margin-top: 11%;
   justify-content: center;
+  text-align: center;
   align-items: center;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  /* top: 50%;
-  left: 50%; */
+  /* border: 7px solid green; */
 }
 
 .about-content {
-  width: 80%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 37%;
-  left: 50%;
-  text-align: center;
-  /* margin: 275px 0 0 0; */
+  margin-top: 0;
+  /* border: 7px solid yellow; */
 }
 
-.heading h1 {
-  color: var(--accent-color-pale-grey);
+.heading-about-me {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  /* border: 7px solid red; */
+}
+
+.about-me {
+  color: var(--pale-blue);
+  justify-content: center;
+  text-align: center;
   font-weight: 600;
   font-size: 46px;
-  line-height: 70px;
-  padding: 0;
-  text-shadow: 0px 0px 15px black;
+  /* border: 2px solid rgb(255, 0, 255); */
 }
 
-.about-section .about-me-text p {
-  position: relative;
-  margin: 0;
-  font-size: 13px;
+.about-me-subhead {
+  font-size: 26px;
+  color: var(--pale-blue);
   font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.about-me-text p {
+  position: relative;
+  font-size: 18px;
+  font-weight: 200;
   padding-top: 15px;
   text-align: left;
-  color: var(--accent-color-pale-grey);
-  line-height: 24px;
-  top: 220px;
-  width: 85%;
+  color: var(--pale-blue);
+  line-height: 34px;
+  width: 65%;
   margin: auto;
+  /* border: 2px solid rgb(255, 0, 255); */
 }
