@@ -135,6 +135,7 @@
   .new-dronet-logo {
   width: 18px;
   height: 18px;
+  margin-left: 0;
   }
 
   .dronet-title {
@@ -150,15 +151,3 @@
   color: var(--accent-color-lt-grey);
   }
 }
-
-/* @media screen and (max-width: 769px) {
-
-} */
-
-/* @media screen and (max-width: 481px) {
-
-} */
-
-/* @media screen and (max-width: 320px) {
-
-} */

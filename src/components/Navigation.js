@@ -37,8 +37,8 @@ const Nav = () => {
         </li>
       </ul>
       <div className='hamburger-menu' onClick={handleClick}>
-        {menuClick ? (<FaTimes size={20} style={{ color: '#ffffff' }
-        } />) : (<FaBars size={20} style={{ color: '#ffffff' }
+        {menuClick ? (<FaTimes size={20} style={{ color: '#E1FBFF' }
+        } />) : (<FaBars size={20} style={{ color: '#E1FBFF' }
         } />)}
       </div>
     </div>
