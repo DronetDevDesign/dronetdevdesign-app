@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: var(--dark-purple);
   backdrop-filter: blur(10px);
   padding: 18px 24px 12px 24px;
   position: fixed;
@@ -20,25 +20,26 @@
 }
 
 .new-dronet-logo {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   margin-left: 7px;
   padding: 0;
 }
 
 .dronet-bold {
-  font-weight: 700;
-  font-size: 17px;
-  padding-right: 2px;
+  color: var(--pale-blue);
+  font-weight: 400;
+  font-size: 16px;
+  padding-right: 3px;
 }
 
 .dronet-title {
   position: relative;
   top: -2px;
   margin-left: 6px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 300;
-  color: var(--pale-blue);
+  color: rgba(225, 251, 255, .6);
   letter-spacing: .06rem;
 }
 
@@ -53,22 +54,22 @@
 .nav-menu li a {
   font-size: 15px;
   font-weight: 400;
-  color: var(--pale-blue);
+  color: rgba(225, 251, 255, 0.5);
   text-transform: uppercase;
   transition: .3s ease-in-out;
   cursor: pointer;
 }
 
 .nav-menu li a:hover {
-  color: rgba(225, 251, 255, 0.5);
+  color: var(--pale-blue);
 }
 
 .nav-menu li a:focus {
-  color: rgba(225, 251, 255, 0.5);
+  color: var(--pale-blue);
 }
 
 #dronet-resume {
-  border: 1px solid var(--pale-blue);
+  border: 1px solid rgba(225, 251, 255, 0.5);
   padding: 4px 15px;
   transition: .3s ease-in-out;
   border-radius: 5px;
