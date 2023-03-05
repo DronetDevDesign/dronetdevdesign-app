@@ -234,12 +234,12 @@ h1 .thinner-heading {
 
 @media screen and (max-width: 390px) {
   .hero-container {
-    margin-top: 15%;
+    margin-top: 22%;
   }
 
   .hero-content {
     width: 100%;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
   }
 
   img {
@@ -254,9 +254,9 @@ h1 .thinner-heading {
 
   .subhead-title {
   padding-left: 0;
-  font-size: 23px;
-  line-height: 43px;
-  letter-spacing: .05rem;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: .04rem;
   margin-top: 20px;
   margin-bottom: 50px;
   }
