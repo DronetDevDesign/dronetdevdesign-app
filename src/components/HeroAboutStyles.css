@@ -85,6 +85,16 @@
   }
 }
 
+@media screen and (max-width: 611px) {
+  .about-section {
+    margin-top: 22%;
+  }
+
+  .about-me {
+    margin-bottom: 35px;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .about-section {
     margin-top: 22%;

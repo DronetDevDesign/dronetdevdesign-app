@@ -79,6 +79,12 @@
   }
 }
 
+@media screen and (max-width: 611px) {
+  .portfolio-section {
+  margin-top: 28%;
+  }
+}
+
 @media screen and (max-width: 576px) {
 .portfolio-section {
   margin-top: 25%;
