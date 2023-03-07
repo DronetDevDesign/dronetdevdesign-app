@@ -63,7 +63,7 @@
 }
 
 .project-buttons .url-btn:hover {
-  opacity: 70%;
+  opacity: 80%;
   color: var(--pale-blue);
 }
 
