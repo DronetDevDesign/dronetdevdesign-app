@@ -14,6 +14,8 @@ const Work = () => {
               imagesource={value.imagesource}
               title={value.title}
               text={value.text}
+              stack={value.stack}
+              languages={value.languages}
               website={value.website}
               git={value.git}
               enternal={value.enternal}

@@ -28,7 +28,7 @@
   line-height: 70px;
   letter-spacing: .06rem;
   padding: 0;
-  margin-bottom: 45px
+  margin-bottom: 45px;
 }
 
 
@@ -86,6 +86,7 @@
 
 .heading h1 {
   font-size: 72px;
+  margin-bottom: 30px;
 }
 
 .heading .portfolio-subhead {
@@ -115,6 +116,7 @@
 .heading h1 {
   font-size: 66px;
   letter-spacing: .06rem;
+  margin-bottom: 20px;
 }
 
 .heading .portfolio-subhead {

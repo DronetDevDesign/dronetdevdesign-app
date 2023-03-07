@@ -34,7 +34,7 @@
 
 .project-title {
   margin: 13px 0 8px 0;
-  color: var(--accent-color-darker-grey);
+  color: var(--dark-blue);
 }
 
 .project-text p {
@@ -42,6 +42,17 @@
   color: var(--accent-color-darker-grey);
   padding-bottom: 22px;
   line-height: 22px;
+}
+
+.stack-subhead {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--dark-blue);
+  opacity: 90%;
+}
+
+.italic-languages {
+  font-style: italic;
 }
 
 .project-buttons {
