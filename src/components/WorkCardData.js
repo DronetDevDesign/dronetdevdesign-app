@@ -1,8 +1,7 @@
 import projectOne from '../assets/birthday-plan-it-screenshot.jpg';
 import projectTwo from '../assets/mood-flix.jpg';
-import projectThree from '../assets/art-garage.jpg';
+import projectThree from '../assets/mercedes-binge.jpg';
 import projectFour from '../assets/weather-bee.jpg';
-import projectFive from '../assets/mercedes-binge.jpg';
 
 const ProjectCardData = [
   {
@@ -23,11 +22,11 @@ const ProjectCardData = [
   },
   {
     imagesource: projectThree,
-    title: 'Art Garage',
-    text: "Here at Art Garage we want to connect artists with potential buyers who are passionate about art. Artists are able to introduce themselves by creating a profile using information about themselves and their personal website link.",
-    website: 'https://art-garage-app.herokuapp.com/',
-    git: 'https://github.com/BigEVK/ArtGarage',
-    enternal: false
+    title: 'Mercedes Binge',
+    text: "The perfect app for Mecedes lovers! This app taps into an API that fetches the most beautiful photos that Mercedes Benz has to offer. Kick back and dream as if you owned one of these beauties or make your wish list to buy one.",
+    website: '/',
+    git: '/',
+    enternal: true
   },
   {
     imagesource: projectFour,
@@ -36,16 +35,7 @@ const ProjectCardData = [
     website: 'https://dronetdevdesign.github.io/weather-bee/',
     git: 'https://github.com/DronetDevDesign/weather-bee',
     enternal: false
-  },
-  {
-    imagesource: projectFive,
-    title: 'Mercedes Binge',
-    text: "The perfect app for Mecedes lovers! This app taps into an API that fetches the most beautiful photos that Mercedes Benz has to offer. Kick back and dream as if you owned one of these beauties or make your wish list to buy one.",
-    website: '/',
-    git: '/',
-    enternal: true
   }
 ];
 
 export default ProjectCardData;
-

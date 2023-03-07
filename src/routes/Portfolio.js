@@ -8,7 +8,7 @@ const Portfolio = () => {
   return (
     <div>
       <Navigation />
-      <HeroPortfolio heading='Portfolio' text='Check out my recent projects.' />
+      <HeroPortfolio />
       <Work />
       <Footer />
     </div>

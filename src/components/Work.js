@@ -5,7 +5,7 @@ import React from 'react';
 
 const Work = () => {
   return (
-    <div className='project-container'>
+    <div className='project-section'>
       <div className='project-container'>
         {WorkCardData.map((value, index) => {
           return(

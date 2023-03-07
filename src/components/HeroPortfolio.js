@@ -1,18 +1,14 @@
 import './HeroPortfolioStyles.css';
 import React, { Component } from 'react';
-import IntroImage from '../assets/hero-section-bkgd.jpg';
 
 class HeroPortfolio extends Component {
   render() {
     return (
       <div className='portfolio-section'>
-        <div className='intro-image'>
-          <img src={IntroImage} alt='IntroImage' />
           <div className='heading'>
-            <h1>{this.props.heading}</h1>
-            <p>{this.props.text}</p>
+            <h1>Portfolio</h1>
+            <p>Welcome to the development section of my website! Here you'll find my most recent projects built with the latest JavaScript frameworks and libraries. To view the deployed apps click the VIEW WEBSITE button and to view the GitHub repository click the VIEW GITHUB button within each project section</p>
           </div>
-        </div>
       </div>
     );
   }
