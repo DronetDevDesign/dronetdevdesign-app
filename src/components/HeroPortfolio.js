@@ -7,7 +7,10 @@ class HeroPortfolio extends Component {
       <div className='portfolio-section'>
           <div className='heading'>
             <h1>Portfolio</h1>
-            <p>Welcome to the development section of my website! Here you'll find my most recent projects built with the latest JavaScript frameworks and libraries. To view the deployed apps click the VIEW WEBSITE button and to view the GitHub repository click the VIEW GITHUB button within each project section</p>
+            <p className='portfolio-subhead'>Welcome to the development section of my website! Here you'll find my most recent projects built with the latest JavaScript frameworks and libraries.</p>
+          <br></br>
+            <p>To view the deployed apps, click the <span className='bold-text'>VIEW WEBSITE</span> button.</p>
+            <p>To view the GitHub repository for each project click the <span className='bold-text'>VIEW GITHUB</span> button.</p>
           </div>
       </div>
     );
