@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 100px;
-  border: 3px solid red;
+  /* border: 3px solid red; */
 }
 
 .project-container {
@@ -15,15 +15,15 @@
   flex-wrap: wrap;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 40px;
-  border: 3px solid green;
+  grid-gap: 50px;
+  /* border: 3px solid green; */
 }
 
 .project-card {
   background-color: var(--pale-blue);
   padding: 25px 25px;
   border-radius: 5px;
-  max-width: 500px;
+  width: 500px;
 }
 
 .project-card img {
@@ -49,25 +49,28 @@
 }
 
 .project-buttons .url-btn {
-  background-color: var(--accent-color-md-purple);
-  border: 2px solid var(--accent-color-md-purple);
+  background: rgb(217,67,50);
+  background: linear-gradient(0deg, rgba(217,67,50,1) 9%, rgba(228,87,49,1) 38%, rgba(234,145,77,1) 73%, rgba(254,198,11,1) 100%);
+  border: 2px solid var(--orange);
+  border-radius: 5px;
   padding: 6px 12px;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  color: var(--accent-color-pale-grey);
-  margin-right: 7px;
+  color: var(--pale-blue);
+  margin-right: 10px;
   transition: 0.3s;
 }
 
 .project-buttons .url-btn:hover {
-  background-color: var(--accent-color-pale-grey);
-  color: var(--accent-color-md-purple);;
+  opacity: 70%;
+  color: var(--pale-blue);
 }
 
 .project-buttons .git-btn {
-  background-color: var(--accent-color-pale-grey);
+  background-color: var(--pale-blue);
   border: 2px solid var(--accent-color-darker-grey);
+  border-radius: 5px;
   padding: 6px 12px;
   font-size: 14px;
   font-weight: 600;
@@ -78,22 +81,77 @@
 }
 
 .project-buttons .git-btn:hover {
-  background-color: var(--accent-color-green);
-  border: 2px solid var(--accent-color-green);
-  color: var(--accent-color-pale-grey);
+  opacity: 70%;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 2000px) {
+  .project-card {
+    width: 760px;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .project-card {
+    width: 680px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .project-card {
+    width: 445px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .project-section {
+    width: 80%;
+  }
+  .project-card {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-section {
+    margin-bottom: 0;
+  }
+
   .project-container {
     display: block;
-    max-width: 90%;
-    /* margin: auto; */
-    margin-bottom: 25px;
+    max-width: 100%;
     grid-template: 1fr;
-    grid-gap: 40px;
   }
 
   .project-card {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+  }
+}
+
+/* @media screen and (max-width: 576px) {
+  
+} */
+
+@media screen and (max-width: 390px) {
+.project-section {
+  margin-bottom: 0;
+}
+
+.project-card {
+  background-color: var(--pale-blue);
+  padding: 13px 13px;
+  border-radius: 5px;
+  width: auto;
+  }
+
+.project-buttons {
+  margin-bottom: 6px;
+  }
+
+.project-buttons .url-btn {
+  font-size: 12px;
+  }
+
+.project-buttons .git-btn {
+  font-size: 12px;
   }
 }
