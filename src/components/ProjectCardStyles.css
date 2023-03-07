@@ -51,7 +51,7 @@
 .project-buttons .url-btn {
   background: rgb(217,67,50);
   background: linear-gradient(0deg, rgba(217,67,50,1) 9%, rgba(228,87,49,1) 38%, rgba(234,145,77,1) 73%, rgba(254,198,11,1) 100%);
-  border: 2px solid var(--orange);
+  border: 1px solid var(--orange);
   border-radius: 5px;
   padding: 6px 12px;
   font-size: 14px;
@@ -69,7 +69,7 @@
 
 .project-buttons .git-btn {
   background-color: var(--pale-blue);
-  border: 2px solid var(--accent-color-darker-grey);
+  border: 1px solid var(--accent-color-darker-grey);
   border-radius: 5px;
   padding: 6px 12px;
   font-size: 14px;
