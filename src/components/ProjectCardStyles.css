@@ -20,7 +20,7 @@
 }
 
 .project-card {
-  background-color: var(--pale-blue);
+  background-color: var(--palest-blue);
   padding: 25px 25px;
   border-radius: 5px;
   width: 500px;
@@ -57,7 +57,7 @@
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  color: var(--pale-blue);
+  color: var(--palest-blue);
   margin-right: 10px;
   transition: 0.3s;
 }
@@ -68,7 +68,7 @@
 }
 
 .project-buttons .git-btn {
-  background-color: var(--pale-blue);
+  background-color: var(--palest-blue);
   border: 1px solid var(--accent-color-darker-grey);
   border-radius: 5px;
   padding: 6px 12px;

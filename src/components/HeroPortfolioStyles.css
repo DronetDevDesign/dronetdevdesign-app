@@ -24,10 +24,11 @@
 .heading h1 {
   color: var(--pale-blue);
   font-weight: 600;
-  font-size: 46px;
+  font-size: 100px;
   line-height: 70px;
   letter-spacing: .06rem;
   padding: 0;
+  margin-bottom: 45px
 }
 
 
@@ -82,6 +83,10 @@
 .portfolio-section {
   margin-top: 25%;
   }
+
+.heading h1 {
+  font-size: 72px;
+}
 
 .heading .portfolio-subhead {
   font-size: 20px;

@@ -23,7 +23,7 @@
   justify-content: center;
   text-align: center;
   font-weight: 600;
-  font-size: 46px;
+  font-size: 100px;
   /* border: 2px solid rgb(255, 0, 255); */
 }
 
@@ -93,6 +93,7 @@
   .about-me {
     margin: 0;
     padding: 0;
+    font-size: 72px;
   }
 
   .about-me-subhead {
