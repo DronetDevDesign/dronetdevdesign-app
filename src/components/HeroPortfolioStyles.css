@@ -6,6 +6,7 @@
   justify-content: center;
   text-align: center;
   align-items: center;
+  border: 3px solid purple;
 }
 
 .heading {
@@ -39,11 +40,12 @@
 .heading p {
   color: var(--pale-blue);
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 1px;
   line-height: 2rem;
+  font-style: italic;
 }
 
 .bold-text {
-  font-weight: 600;
+  font-weight: 400;
 }
