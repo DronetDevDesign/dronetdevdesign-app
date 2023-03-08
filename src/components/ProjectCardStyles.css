@@ -81,7 +81,7 @@
 }
 
 .project-buttons .git-btn {
-  background-color: var(--palest-blue);
+  background: var(--palest-blue);
   border: 1px solid var(--accent-color-darker-grey);
   border-radius: 5px;
   padding: 6px 12px;
