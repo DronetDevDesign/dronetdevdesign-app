@@ -140,9 +140,11 @@
   }
 }
 
-/* @media screen and (max-width: 576px) {
-  
-} */
+@media screen and (max-width: 430px) {
+  .project-card {
+    margin-bottom: 40px;
+  }
+}
 
 @media screen and (max-width: 390px) {
 .project-section {
