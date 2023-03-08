@@ -30,8 +30,8 @@ const ProjectCardData = [
     text: "The perfect app for Mecedes lovers! This app taps into an API that fetches the most beautiful photos that Mercedes Benz has to offer. Kick back and dream as if you owned one of these beauties or make your wish list to buy one.",
     stack: "Code stack:",
     languages: "JavaScript, Node, Server-side API, GoogleFonts, CSS, HTML",
-    website: '/',
-    git: '/',
+    website: 'https://dronetdevdesign.github.io/mercedes-binge-app/',
+    git: 'https://github.com/DronetDevDesign/mercedes-binge-app',
     enternal: true
   },
   {
