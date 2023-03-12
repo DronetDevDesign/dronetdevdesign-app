@@ -134,7 +134,11 @@ h1 .thinner-heading {
   .hero-container {
     margin-top: 8%;
    }
+
+  .hero-container::before {
+    top: 735px;
   }
+}
 
 @media screen and (max-width: 1800px) {
   .hero-container {
@@ -146,31 +150,39 @@ h1 .thinner-heading {
   .hero-container {
     margin-top: 12%;
   }
+    
+  .hero-container::before {
+    top: 575px;
+  }
 
   img {
-  width: 480px;
+  width: 510px;
   }
 
   .hero-content {
-  margin-top: 10px;
+  margin-top: 15px;
   }
 
   h1 {
   font-size: 90px;
-  line-height: 110px;
+  line-height: 105px;
   }
 
   .subhead-title {
   padding-left: 15px;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 45px;
-  margin-bottom: 57px;
+  margin-bottom: 50px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .hero-container {
-    margin-top: 15%;
+    margin-top: 17%;
+  }
+
+  .hero-container::before {
+    top: 520px;
   }
 
   img {
@@ -179,18 +191,21 @@ h1 .thinner-heading {
 
   .hero-content {
     width: 45%;
+    padding-top: 20px;
+    margin-top: 0;
   }
 
   h1 {
   font-size: 85px;
   line-height: 105px;
+  margin-bottom: 18px;
   }
 
   .subhead-title {
-  padding-left: 0;
-  font-size: 22px;
-  line-height: 42px;
-  margin-bottom: 50px;
+  padding-left: 5;
+  font-size: 17px;
+  line-height: 40px;
+  margin-bottom: 45px;
   }
 }
 
