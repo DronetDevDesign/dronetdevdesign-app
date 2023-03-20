@@ -3,8 +3,7 @@
 
 ## Purpose:
 
-Welcome to my portfolio website that was created using REACT! Here you'll be able to navigate using the menu items About, Portfolio, Contact and Resume. The About page will give you a little insight as to who I am and what my goals are. The Portfolio page showcases four of my latest projects. Clicking the Contact menu item will open up an email window which makes it easy to contact me. Clicking the Resume menu item will open up a new browser window to reveal my current resume with details. Thank you for visiting my portfolio website! Please contact me if you any
-questions.
+Welcome to my portfolio website that was created using REACT! Here you'll be able to navigate using the menu items About, Portfolio, Contact and Resume. The About page will give you a little insight as to who I am and what my goals are. The Portfolio page showcases four of my latest projects. Clicking the Contact menu item will open up an email window which makes it easy to contact me. Clicking the Resume menu item will open up a new browser window to reveal my current resume with details. Thank you for visiting my portfolio website! Please contact me if you have any questions.
 
 <br>
 
