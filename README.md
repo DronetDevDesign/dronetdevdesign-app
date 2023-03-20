@@ -14,7 +14,6 @@ questions.
 <br>
 
 ## **Table of contents:**
-
 - [Installation](#installation)
 - [Start](#start)
 - [Usage](#usage)
