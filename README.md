@@ -3,10 +3,12 @@
 
 ## Purpose:
 
-This portfolio website was create using React. Here you'll be able to navigate using the menu items to an About, Portfolio, Contact and Resume pages. If you're interested in knowing more please use the form in the contact page.
+Welcome to my portfolio website that was created using REACT! Here you'll be able to navigate using the menu items About, Portfolio, Contact and Resume. The About page will give you a little insight as to who I am and what my goals are. The Portfolio page showcases four of my latest projects. Clicking the Contact menu item will open up an email window which makes it easy to contact me. Clicking the Resume menu item will open up a new browser window to reveal my current resume with details. Thank you for visiting my portfolio website! Please contact me if you any
+questions.
+
+<br>
 
 ## Deployed Website Link:
-
 ## https://dronetdevdesign.github.io/dronetdevdesign-app/
 
 <br>
@@ -25,15 +27,36 @@ This portfolio website was create using React. Here you'll be able to navigate u
 </div>
 <br>
 
+## Viewable Responsive Screen Sizes:
+
+* Desktop: 2000px
+* Media Query Sizes:
+  - 1200px to 992px (Desktop - laptops)
+  - 768px (Laptop - tablets)
+  - 576px (Small devices)
+  - 430px (large cell phones)
+  - 390px (small cell phones)
+
 <br>
 
-## This Full-stack App Was Created Using:
+## This App Was Created Using:
 
-- HTML 
-- CSS
-- JavaScript
-- React
-- GitHub
+  - HTML 
+  - CSS
+  - JavaScript
+  - NodeJS
+  - React
+  - Git/GitHub
+  - GoogleFonts
+  - FontAwesome
+
+<br>
+
+## Graphic Software Used:
+  - Adobe Photoshop
+  - Adobe Illustrator
+  - Adobe AfterEffects
+  - Sketch
 
 <br>
 
