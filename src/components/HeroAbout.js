@@ -1,6 +1,6 @@
 import './HeroAboutStyles.css';
 import React, { Component } from 'react';
-// import AboutImage from '../assets/hero-section-bkgd.jpg';
+import myProfileImage from '../assets/ron-dronet-photo.png';
 
 class HeroAbout extends Component {
   render() {
@@ -8,7 +8,10 @@ class HeroAbout extends Component {
       <div className='about-section'>
         <div className='about-content'>
           <div className='heading-about-me'>
-            <h1 className='about-me'>About Me</h1>
+            <h1 className='about-me'><span className='about-word'>About</span>Me</h1>
+            <div className='dronet-profile-pic'>
+            <img src={myProfileImage} alt="Ron Dronet face pic"></img>
+            </div>
             <p className='about-me-subhead'>I'm Ron Dronet.</p>
             <p className='about-me-job-title'>Full-stack Developer & Graphic Designer</p>
             {/* <p className='about-me-subhead'>FULL-stack  &nbsp;|&nbsp;  FULL-creative  &nbsp;|&nbsp;  FULL-service!</p> */}
