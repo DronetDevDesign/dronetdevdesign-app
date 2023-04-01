@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/dronetdevdesign-app/static/css/main.6bb33da4.css",
-    "main.js": "/dronetdevdesign-app/static/js/main.9401835f.js",
+    "main.css": "/dronetdevdesign-app/static/css/main.39c26d1e.css",
+    "main.js": "/dronetdevdesign-app/static/js/main.f6b48d73.js",
     "static/media/mood-flix.jpg": "/dronetdevdesign-app/static/media/mood-flix.a8c061a2c744a25fc643.jpg",
     "static/media/dronet-illustration-no-background.png": "/dronetdevdesign-app/static/media/dronet-illustration-no-background.b1104ddab3018c038747.png",
     "static/media/birthday-plan-it-screenshot.jpg": "/dronetdevdesign-app/static/media/birthday-plan-it-screenshot.3d042ec279c7ed01c6ce.jpg",
+    "static/media/ron-dronet-photo.png": "/dronetdevdesign-app/static/media/ron-dronet-photo.fa0050e537b3ef14ebfc.png",
     "static/media/hero-section-bkgd.jpg": "/dronetdevdesign-app/static/media/hero-section-bkgd.dd08c1db782cc51d5df1.jpg",
     "static/media/2023-ron-dronet-resume.pdf": "/dronetdevdesign-app/static/media/2023-ron-dronet-resume.981f31f1a7e48a7a1701.pdf",
     "static/media/mercedes-binge.jpg": "/dronetdevdesign-app/static/media/mercedes-binge.2be868285af7c2873ecb.jpg",
     "static/media/weather-bee.jpg": "/dronetdevdesign-app/static/media/weather-bee.74c9a9a4ceefc9666c4b.jpg",
     "static/media/dronetdevdesign-gradient-logo.png": "/dronetdevdesign-app/static/media/dronetdevdesign-gradient-logo.87ffe14ea8c4ed4ae7d8.png",
     "index.html": "/dronetdevdesign-app/index.html",
-    "main.6bb33da4.css.map": "/dronetdevdesign-app/static/css/main.6bb33da4.css.map",
-    "main.9401835f.js.map": "/dronetdevdesign-app/static/js/main.9401835f.js.map"
+    "main.39c26d1e.css.map": "/dronetdevdesign-app/static/css/main.39c26d1e.css.map",
+    "main.f6b48d73.js.map": "/dronetdevdesign-app/static/js/main.f6b48d73.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bb33da4.css",
-    "static/js/main.9401835f.js"
+    "static/css/main.39c26d1e.css",
+    "static/js/main.f6b48d73.js"
   ]
 }
