@@ -124,24 +124,28 @@
   }
 
   .about-me {
-    margin: 0;
+    margin-bottom: 35px;
     padding: 0;
-    font-size: 72px;
+    font-size: 90px;
   }
 
   .about-me-subhead {
-  font-size: 20px;
+  font-size: 45px;
   color: var(--pale-blue);
   font-weight: 400;
-  margin-bottom: 30px;
   padding: 0;
+  margin-bottom: 0;
   }
 
+  .about-me-job-title {
+  font-size: 21px;
+}
+
   .about-me-text p {
-  font-size: 16px;
-  padding-top: 15px;
-  line-height: 34px;
-  width: 75%;
+  font-size: 18px;
+  padding-top: 10px;
+  line-height: 38px;
+  width: 70%;
   }
 }
 
@@ -152,17 +156,17 @@
   }
 
   .about-me {
-    margin-bottom: 20px;
+    margin-bottom: 45px;
+    font-size: 80px;
   }
 
   .about-me-subhead {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 25px;
+  font-size: 46px;
+  font-weight: 200;
   }
 
   .about-me-text p {
-  line-height: 35px;
+  line-height: 40px;
   width: 80%;
   }
 }
@@ -174,23 +178,25 @@
   }
 
   .about-me {
-  font-size: 66px;
-  margin-bottom: 20px;
+  font-size: 76px;
+  margin-bottom: 35px;
 }
 
   .about-me-subhead {
-  font-size: 14px;
+  font-size: 44px;
   color: var(--pale-blue);
-  font-weight: 600;
+  font-weight: 200;
   letter-spacing: .02rem;
-  margin-bottom: 18px;
-  padding: 0;
   }
 
+.about-me-job-title {
+  font-size: 19px;
+  font-weight: 400;
+}
+
   .about-me-text p {
-  font-size: 14px;
-  padding-top: 15px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 35px;
   width: 80%;
   letter-spacing: .03rem;
   }
