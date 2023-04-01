@@ -9,23 +9,13 @@ class HeroAbout extends Component {
         <div className='about-content'>
           <div className='heading-about-me'>
             <h1 className='about-me'>About Me</h1>
-            <p className='about-me-subhead'>FULL-stack  &nbsp;|&nbsp;  FULL-creative  &nbsp;|&nbsp;  FULL-service!</p>
+            <p className='about-me-subhead'>I'm Ron Dronet.</p>
+            <p className='about-me-job-title'>Full-stack Developer & Graphic Designer</p>
+            {/* <p className='about-me-subhead'>FULL-stack  &nbsp;|&nbsp;  FULL-creative  &nbsp;|&nbsp;  FULL-service!</p> */}
           </div>
           <div className='about-me-text'>
             <p>
-              Hi, my name is Ron Dronet and I want to thank you for visiting my website! I offer my clients the best of both worlds by not only providing the creative and design to push their brand to new heights, but also seeing projects through to full-stack development from concept to completion.
-            </p>
-            <p>
-              I am currently a one man design studio working for the City of Houston. As far back as I can remember I've been creative and to this day I chuckle at how far I've come and how passionate I am about my career.
-            </p>
-            <p>
-              My energy and motivation has allowed me to work on many exciting and satisfying projects. I have grown to be an extremely diversified Full-stack Developer and Graphic Artist. I am always willing to listen, learn and collaborate to get the job done.
-            </p>
-            <p>
-              By viewing my portfolio you will see that I take pride in my work and enjoy what I do. It has been a pleasure to help businesses develop a strong sense of presence through my skills and experience.
-            </p>
-            <p>
-              Moving forward, I will continue to challenge and educate myself, keeping current with the latest trends and software. In the meantime, thank you for taking the time to view my website. If you have any questions, please don't hesitate to contact me.
+              I’m a junior full-stack developer leveraging an extensive graphic design background to build a more intuitive user experience on the web. I recently earned a certificate from the Rice University Full-stack Development Coding program with newly developed skills in HTML, CSS, JavaScript, Node, Express, MongoDB, React, GraphQL, GitHub and responsive web design. I’ve become known as an innovative problem solver passionate about developing apps, with a focus on mobile-first design and development. With each project, my aim is to best engage my audience for an impactful user experience. I applied aspects of UI/UX and agile development in a recent project named Birthday Plan It. I worked on a team of three to develop a single-page MERN app that allows users to create an invitation which is then sent to the recipients via email then has them log in to RSVP the birthday event. I’m excited to leverage my skills as part of a fast-paced, quality-driven team to build better experiences on the web and contribute to the success of a company.
             </p>
           </div>
         </div>
