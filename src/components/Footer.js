@@ -1,6 +1,7 @@
 import './FooterStyles.css';
 import React from 'react';
 import { FaHome, FaLinkedin, FaGithub, FaMailBulk } from 'react-icons/fa';
+import Logo from '../assets/dronetdevdesign-gradient-logo.png';
 
 const Footer = () => {
   return (
@@ -30,6 +31,14 @@ const Footer = () => {
             <li className='github-icon'><a href='https://github.com/DronetDevDesign' target="_blank" rel="noreferrer"><FaGithub size={25} style={{ color: '#8A66DB', marginRight: '10px' }} /><p>Visit my GitHub profile</p></a></li>
           </ul>
         </div>
+      </div>
+      <div className='footer-heading'>
+        <img src={Logo} alt="logo" className='new-dronet-logo-footer' />
+        <h3 className='dronet-footer-title'><span className='dronet-bold-footer'>Dronet</span> Development & Design</h3>
+      </div>
+      <div className='copyright-statement'>
+        <p>All graphic elements and illustrations in this website:</p>
+        <p className='copyright-p'><span class="copyright-symbol-footer">&copy;</span>Copyright 2023 Ron Dronet</p>
       </div>
     </div>
   )
