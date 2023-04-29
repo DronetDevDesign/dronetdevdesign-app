@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/dronetdevdesign-app/static/css/main.52772382.css",
-    "main.js": "/dronetdevdesign-app/static/js/main.d354aca0.js",
+    "main.css": "/dronetdevdesign-app/static/css/main.d8cf5c44.css",
+    "main.js": "/dronetdevdesign-app/static/js/main.e6607e8a.js",
     "static/media/mood-flix.jpg": "/dronetdevdesign-app/static/media/mood-flix.a8c061a2c744a25fc643.jpg",
-    "static/media/dronet-illustration-no-background.png": "/dronetdevdesign-app/static/media/dronet-illustration-no-background.b1104ddab3018c038747.png",
     "static/media/birthday-plan-it-screenshot.jpg": "/dronetdevdesign-app/static/media/birthday-plan-it-screenshot.3d042ec279c7ed01c6ce.jpg",
     "static/media/ron-dronet-photo.png": "/dronetdevdesign-app/static/media/ron-dronet-photo.fa0050e537b3ef14ebfc.png",
     "static/media/hero-section-bkgd.jpg": "/dronetdevdesign-app/static/media/hero-section-bkgd.dd08c1db782cc51d5df1.jpg",
     "static/media/2023-ron-dronet-resume.pdf": "/dronetdevdesign-app/static/media/2023-ron-dronet-resume.981f31f1a7e48a7a1701.pdf",
+    "static/media/main-front.png": "/dronetdevdesign-app/static/media/main-front.ca8121b551824db16c8c.png",
     "static/media/mercedes-binge.jpg": "/dronetdevdesign-app/static/media/mercedes-binge.2be868285af7c2873ecb.jpg",
     "static/media/weather-bee.jpg": "/dronetdevdesign-app/static/media/weather-bee.74c9a9a4ceefc9666c4b.jpg",
+    "static/media/main-yellow-glow.png": "/dronetdevdesign-app/static/media/main-yellow-glow.2cb2c414d889111b555f.png",
+    "static/media/main-javascript.png": "/dronetdevdesign-app/static/media/main-javascript.452be1f8b72e63303a4c.png",
+    "static/media/main-illustrator.png": "/dronetdevdesign-app/static/media/main-illustrator.2ef35a9d4bd1079846da.png",
     "static/media/dronetdevdesign-gradient-logo.png": "/dronetdevdesign-app/static/media/dronetdevdesign-gradient-logo.87ffe14ea8c4ed4ae7d8.png",
     "index.html": "/dronetdevdesign-app/index.html",
-    "main.52772382.css.map": "/dronetdevdesign-app/static/css/main.52772382.css.map",
-    "main.d354aca0.js.map": "/dronetdevdesign-app/static/js/main.d354aca0.js.map"
+    "main.d8cf5c44.css.map": "/dronetdevdesign-app/static/css/main.d8cf5c44.css.map",
+    "main.e6607e8a.js.map": "/dronetdevdesign-app/static/js/main.e6607e8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.52772382.css",
-    "static/js/main.d354aca0.js"
+    "static/css/main.d8cf5c44.css",
+    "static/js/main.e6607e8a.js"
   ]
 }
