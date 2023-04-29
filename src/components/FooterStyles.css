@@ -125,8 +125,10 @@
 }
 
 .new-dronet-logo-footer {
+  position: relative;
   width: 25px;
   height: auto;
+  z-index: 1;
 }
 
 .dronet-bold-footer {

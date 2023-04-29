@@ -46,6 +46,7 @@ body {
     rgba(0, 0, 0, 0) 100%
   );
   background-repeat: no-repeat;
+  z-index: -35;
 }
 
 .hero-section {
@@ -55,7 +56,7 @@ body {
   flex-wrap: wrap;
   width: auto;
   justify-content: center;
-  border: 5px solid red;
+  /* border: 5px solid red; */
 }
 
 .image-container {
@@ -63,13 +64,190 @@ body {
   position: relative;
   width: auto;
   object-fit: cover;
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
 }
 
+/* GLOWING ANIMATION */
+.glow img {
+  position: absolute;
+  width: 371px;
+  left: 205px;
+  animation-name: glowing;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes glowing {
+  0% { opacity: 0.7; }
+  25% { opacity: 0.4}
+  50% { opacity: 0.5; }
+  100% { opacity: 0.9; }
+}
+/* GLOWING ANIMATION */
+
+/* JAVASCRIPT */
+.javascript-icon img {
+  position: absolute;
+  width: 86px;
+  left: 325px;
+  top: 50px;
+  animation-name: javascript;
+  animation-duration: 17s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes javascript {
+  0% { 
+    opacity: 0;
+    transform: translateY(550px); 
+    }
+  25% { opacity: 0.5; }
+  50% { opacity: 1; }
+  75% { opacity: 0.5; }
+  100% { opacity: 0; }
+}
+/* END JAVASCRIPT */
+
+/* ILLUSTRATOR */
+.illustrator-icon img {
+  position: absolute;
+  width: 86px;
+  left: 235px;
+  top: 100px;
+  animation-name: illustrator;
+  animation-duration: 22s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes illustrator {
+  0% { 
+    opacity: 0;
+    transform: translateY(600px); 
+    }
+  10% { opacity: 0.5; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END ILLUSTRATOR */
+
+/* BUBBLES FLOATING UP ANIMATION */
+.bubbles img {
+  position: absolute;
+  width: 300px;
+  left: 240px;
+  top: 150px;
+  animation-name: bubbles;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bubbles {
+  0% { 
+    opacity: 0;
+    transform: translateY(315px) 
+    }
+  25% { opacity: 0.5; }
+  50% { opacity: 1; }
+  75% { opacity: 0.5; }
+  100% { opacity: 0; }
+}
+/* BUBBLES FLOATING UP ANIMATION */
+
+/* HEAD LOOKING UP ANIMATION */
+.head img {
+  position: absolute;
+  width: 45px;
+  left: 23px;
+  top: 499px;
+  animation-name: head-moving;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes head-moving {
+  0% {
+    transform: rotate(-0.03turn);
+  }
+  25% {
+    transform: rotate(-0.03turn);
+  }
+  35% {
+    transform: rotate(0.02turn);
+  }
+  45% {
+    transform: rotate(0.02turn);
+  }
+  55% {
+    transform: rotate(0.02turn);
+  }
+  65% {
+    transform: rotate(0.02turn);
+  }
+  75% {
+    transform: rotate(0.02turn);
+  }
+  85% {
+    transform: rotate(0.02turn);
+  }
+  95% {
+    transform: rotate(0.02turn);
+  }
+  100% {
+    transform: rotate(0.02turn);
+  }
+}
+/* HEAD LOOKING UP ANIMATION */
+
 img {
+  position: relative;
+  z-index: -10;
   width: 650px;
   height: auto;
 }
+
+/* CONSOLE LIGHTS BLINKING ANIMATION */
+.lights-one img {
+  position: absolute;
+  width: 370px;
+  left: 206px;
+  top: 675px;
+  animation-name: lights-one;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes lights-one {
+  0% { opacity: 0.1; }
+  50% { opacity: 0.9; }
+  100% { opacity: 1; }
+}
+
+.lights-two img {
+  position: absolute;
+  width: 373px;
+  left: 206px;
+  top: 675px;
+  animation-name: lights-two;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes lights-two {
+  0% { opacity: 0.2; }
+  50% { opacity: 0.8; }
+  100% { opacity: 1; }
+}
+/* CONSOLE LIGHTS BLINKING ANIMATION */
 
 .hero-content {
   margin-top: 65px;
