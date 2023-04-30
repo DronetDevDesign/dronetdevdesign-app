@@ -95,7 +95,7 @@ body {
 /* JAVASCRIPT */
 .javascript-icon img {
   position: absolute;
-  width: 86px;
+  width: 78px;
   left: 355px;
   top: 50px;
   animation-name: javascript;
@@ -119,9 +119,9 @@ body {
 /* REACT */
 .react-icon img {
   position: absolute;
-  width: 86px;
+  width: 78px;
   left: 445px;
-  top: 100px;
+  top: 125px;
   animation-name: react;
   animation-duration: 13s;
   animation-fill-mode: both;
@@ -142,9 +142,9 @@ body {
 /* NODE JS */
 .node-icon img {
   position: absolute;
-  width: 86px;
+  width: 78px;
   left: 475px;
-  top: 100px;
+  top: 130px;
   animation-name: node;
   animation-duration: 16s;
   animation-fill-mode: both;
@@ -181,9 +181,9 @@ body {
 /* EXPRESS JS */
 .express-icon img {
   position: absolute;
-  width: 86px;
+  width: 78px;
   left: 495px;
-  top: 150px;
+  top: 170px;
   animation-name: express;
   animation-duration: 25s;
   animation-fill-mode: both;
@@ -224,9 +224,9 @@ body {
 /* CSS */
 .css-icon img {
   position: absolute;
-  width: 86px;
+  width: 78px;
   left: 410px;
-  top: 50px;
+  top: 200px;
   animation-name: css;
   animation-duration: 15s;
   animation-fill-mode: both;
@@ -276,9 +276,9 @@ body {
 /* MONGO DB */
 .mongo-icon img {
   position: absolute;
-  width: 86px;
+  width: 78px;
   left: 380px;
-  top: 35px;
+  top: 100px;
   animation-name: mongo;
   animation-duration: 23s;
   animation-fill-mode: both;
@@ -312,6 +312,37 @@ body {
 }
 /* END MONGO DB */
 
+/* HTML */
+.html-icon img {
+  position: absolute;
+  width: 78px;
+  left: 375px;
+  top: 150px;
+  animation-name: html;
+  animation-duration: 20s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes html {
+  0% { 
+    opacity: 0;
+    transform: translateY(540px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(540px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(540px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END HTML */
+
 
 /* *************************************
 ********** GRAPHIC DESIGN *************
@@ -320,11 +351,11 @@ body {
 /* ILLUSTRATOR */
 .illustrator-icon img {
   position: absolute;
-  width: 86px;
-  left: 235px;
-  top: 100px;
+  width: 78px;
+  left: 290px;
+  top: 65px;
   animation-name: illustrator;
-  animation-duration: 22s;
+  animation-duration: 20s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
 }
@@ -332,13 +363,177 @@ body {
 @keyframes illustrator {
   0% { 
     opacity: 0;
-    transform: translateY(400px); 
+    transform: translateY(520px); 
     }
   10% { opacity: 0.5; }
   75% { opacity: 1; }
   100% { opacity: 0; }
 }
 /* END ILLUSTRATOR */
+
+/* XD */
+.xd-icon img {
+  position: absolute;
+  width: 78px;
+  left: 225px;
+  top: 150px;
+  animation-name: xd;
+  animation-duration: 22s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes xd {
+  0% { 
+    opacity: 0;
+    transform: translateY(540px); 
+    }
+  20% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END XD */
+
+/* PHOTOSHOP */
+.photoshop-icon img {
+  position: absolute;
+  width: 78px;
+  left: 255px;
+  top: 75px;
+  animation-name: photoshop;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes photoshop {
+  0% { 
+    opacity: 0;
+    transform: translateY(540px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(540px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(540px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END PHOTOSHOP */
+
+/* SKETCH */
+.sketch-icon img {
+  position: absolute;
+  width: 78px;
+  left: 320px;
+  top: 250px;
+  animation-name: sketch;
+  animation-duration: 17s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sketch {
+  0% { 
+    opacity: 0;
+    transform: translateY(500px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(500px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(500px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(500px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END SKETCH */
+
+/* AFFINITY */
+.affinity-icon img {
+  position: absolute;
+  width: 78px;
+  left: 240px;
+  top: 300px;
+  animation-name: affinity;
+  animation-duration: 20s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes affinity {
+  0% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  20% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  40% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END AFFINITY */
+
+/* IN DESIGN */
+.indesign-icon img {
+  position: absolute;
+  width: 78px;
+  left: 250px;
+  top: 155px;
+  animation-name: indesign;
+  animation-duration: 18s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes indesign {
+  0% { 
+    opacity: 0;
+    transform: translateY(500px); 
+    }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END IN DESIGN */
+
+/* BLENDER */
+.blender-icon img {
+  position: absolute;
+  width: 78px;
+  left: 340px;
+  top: 260px;
+  animation-name: blender;
+  animation-duration: 12s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blender {
+  0% { 
+    opacity: 0;
+    transform: translateY(450px); 
+    }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END BLENDER */
 
 /* BUBBLES FLOATING UP ANIMATION */
 .bubbles img {
