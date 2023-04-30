@@ -43,7 +43,7 @@
   font-family: 'Poppins';
 }
 
-body {
+/* body {
   background: rgb(0, 2, 63);
   background: linear-gradient(
     45deg,
@@ -55,7 +55,7 @@ body {
     rgba(204, 114, 54, 1) 100%
   );
   background-repeat: no-repeat;
-}
+} */
 
 a {
   text-decoration: none;
