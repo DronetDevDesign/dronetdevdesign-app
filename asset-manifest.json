@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dronetdevdesign-app/static/css/main.56e4b13b.css",
-    "main.js": "/dronetdevdesign-app/static/js/main.6593c21c.js",
+    "main.css": "/dronetdevdesign-app/static/css/main.b00c8ac1.css",
+    "main.js": "/dronetdevdesign-app/static/js/main.bf85a9e5.js",
     "static/media/mood-flix.jpg": "/dronetdevdesign-app/static/media/mood-flix.a8c061a2c744a25fc643.jpg",
     "static/media/birthday-plan-it-screenshot.jpg": "/dronetdevdesign-app/static/media/birthday-plan-it-screenshot.3d042ec279c7ed01c6ce.jpg",
     "static/media/ron-dronet-photo.png": "/dronetdevdesign-app/static/media/ron-dronet-photo.fa0050e537b3ef14ebfc.png",
@@ -13,18 +13,25 @@
     "static/media/main-yellow-glow.png": "/dronetdevdesign-app/static/media/main-yellow-glow.2cb2c414d889111b555f.png",
     "static/media/main-react.png": "/dronetdevdesign-app/static/media/main-react.d50a4317e8c0aad3a21c.png",
     "static/media/main-node.png": "/dronetdevdesign-app/static/media/main-node.a14011251e7fa31fcd04.png",
+    "static/media/main-sketch.png": "/dronetdevdesign-app/static/media/main-sketch.bcb38beba84b927c31d4.png",
     "static/media/main-express.png": "/dronetdevdesign-app/static/media/main-express.f12ccfb718323912909a.png",
+    "static/media/main-affinity.png": "/dronetdevdesign-app/static/media/main-affinity.8bec04b5bac9ff471552.png",
+    "static/media/main-blender.png": "/dronetdevdesign-app/static/media/main-blender.1abf8a1c13d5033820c9.png",
+    "static/media/main-xd.png": "/dronetdevdesign-app/static/media/main-xd.7f2cc1fd60f3abc1c239.png",
     "static/media/main-javascript.png": "/dronetdevdesign-app/static/media/main-javascript.452be1f8b72e63303a4c.png",
+    "static/media/main-photoshop.png": "/dronetdevdesign-app/static/media/main-photoshop.5e725c5703a24fd4c4fe.png",
     "static/media/main-css3.png": "/dronetdevdesign-app/static/media/main-css3.aec6ca041d047ddd0450.png",
+    "static/media/main-html5.png": "/dronetdevdesign-app/static/media/main-html5.234931de926478e579d6.png",
     "static/media/main-illustrator.png": "/dronetdevdesign-app/static/media/main-illustrator.2ef35a9d4bd1079846da.png",
     "static/media/main-mongo-db.png": "/dronetdevdesign-app/static/media/main-mongo-db.cefa7ef63ba5714d70dd.png",
     "static/media/dronetdevdesign-gradient-logo.png": "/dronetdevdesign-app/static/media/dronetdevdesign-gradient-logo.87ffe14ea8c4ed4ae7d8.png",
+    "static/media/main-indesign.png": "/dronetdevdesign-app/static/media/main-indesign.0a3668e8743f092c69b7.png",
     "index.html": "/dronetdevdesign-app/index.html",
-    "main.56e4b13b.css.map": "/dronetdevdesign-app/static/css/main.56e4b13b.css.map",
-    "main.6593c21c.js.map": "/dronetdevdesign-app/static/js/main.6593c21c.js.map"
+    "main.b00c8ac1.css.map": "/dronetdevdesign-app/static/css/main.b00c8ac1.css.map",
+    "main.bf85a9e5.js.map": "/dronetdevdesign-app/static/js/main.bf85a9e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.56e4b13b.css",
-    "static/js/main.6593c21c.js"
+    "static/css/main.b00c8ac1.css",
+    "static/js/main.bf85a9e5.js"
   ]
 }
