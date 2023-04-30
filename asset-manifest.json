@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dronetdevdesign-app/static/css/main.d8cf5c44.css",
+    "main.css": "/dronetdevdesign-app/static/css/main.09dbffd1.css",
     "main.js": "/dronetdevdesign-app/static/js/main.e6607e8a.js",
     "static/media/mood-flix.jpg": "/dronetdevdesign-app/static/media/mood-flix.a8c061a2c744a25fc643.jpg",
     "static/media/birthday-plan-it-screenshot.jpg": "/dronetdevdesign-app/static/media/birthday-plan-it-screenshot.3d042ec279c7ed01c6ce.jpg",
@@ -15,11 +15,11 @@
     "static/media/main-illustrator.png": "/dronetdevdesign-app/static/media/main-illustrator.2ef35a9d4bd1079846da.png",
     "static/media/dronetdevdesign-gradient-logo.png": "/dronetdevdesign-app/static/media/dronetdevdesign-gradient-logo.87ffe14ea8c4ed4ae7d8.png",
     "index.html": "/dronetdevdesign-app/index.html",
-    "main.d8cf5c44.css.map": "/dronetdevdesign-app/static/css/main.d8cf5c44.css.map",
+    "main.09dbffd1.css.map": "/dronetdevdesign-app/static/css/main.09dbffd1.css.map",
     "main.e6607e8a.js.map": "/dronetdevdesign-app/static/js/main.e6607e8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8cf5c44.css",
+    "static/css/main.09dbffd1.css",
     "static/js/main.e6607e8a.js"
   ]
 }
