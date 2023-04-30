@@ -9,11 +9,11 @@ import LightsTwo from '../assets/main-lights-02.png';
 import Bubbles from '../assets/main-bubbles.png';
 import JavascriptIcon from '../assets/main-javascript.png';
 import IllustratorIcon from '../assets/main-illustrator.png';
-// import AffinityImage from '../assets/main-affinity.png';
-// import AffinityImage from '../assets/main-affinity.png';
-// import AffinityImage from '../assets/main-affinity.png';
-// import AffinityImage from '../assets/main-affinity.png';
-// import AffinityImage from '../assets/main-affinity.png';
+import ReactIcon from '../assets/main-react.png';
+import NodeIcon from '../assets/main-node.png';
+import ExpressIcon from '../assets/main-express.png';
+import CssIcon from '../assets/main-css3.png';
+import MongoIcon from '../assets/main-mongo-db.png';
 // import AffinityImage from '../assets/main-affinity.png';
 // import AffinityImage from '../assets/main-affinity.png';
 // import AffinityImage from '../assets/main-affinity.png';
@@ -41,6 +41,21 @@ const HeroSection = () => {
           </div>
           <div className='illustrator-icon'>
             <img src={IllustratorIcon} alt="illustrator icon"></img>
+          </div>
+          <div className='react-icon'>
+            <img src={ReactIcon} alt="react icon"></img>
+          </div>
+          <div className='node-icon'>
+            <img src={NodeIcon} alt="nodeJS icon"></img>
+          </div>
+          <div className='express-icon'>
+            <img src={ExpressIcon} alt="expressJS icon"></img>
+          </div>
+          <div className='css-icon'>
+            <img src={CssIcon} alt="css icon"></img>
+          </div>
+          <div className='mongo-icon'>
+            <img src={MongoIcon} alt="mongo icon"></img>
           </div>
           <div className='glow'>
             <img src={GlowImage} alt="glow"></img>

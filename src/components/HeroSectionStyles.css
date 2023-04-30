@@ -87,11 +87,16 @@ body {
 }
 /* GLOWING ANIMATION */
 
+
+/* *************************************
+************ DEVELOPMENT ***************
+************************************* */
+
 /* JAVASCRIPT */
 .javascript-icon img {
   position: absolute;
   width: 86px;
-  left: 325px;
+  left: 355px;
   top: 50px;
   animation-name: javascript;
   animation-duration: 17s;
@@ -110,6 +115,207 @@ body {
   100% { opacity: 0; }
 }
 /* END JAVASCRIPT */
+
+/* REACT */
+.react-icon img {
+  position: absolute;
+  width: 86px;
+  left: 445px;
+  top: 100px;
+  animation-name: react;
+  animation-duration: 13s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes react {
+  0% { 
+    opacity: 0;
+    transform: translateY(500px); 
+    }
+  10% { opacity: 0.75; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END REACT */
+
+/* NODE JS */
+.node-icon img {
+  position: absolute;
+  width: 86px;
+  left: 475px;
+  top: 100px;
+  animation-name: node;
+  animation-duration: 16s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes node {
+  0% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  35% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END NODE JS */
+
+/* EXPRESS JS */
+.express-icon img {
+  position: absolute;
+  width: 86px;
+  left: 495px;
+  top: 150px;
+  animation-name: express;
+  animation-duration: 25s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes express {
+  0% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  50% { opacity: 0.5; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END EXPRESS JS */
+
+/* CSS */
+.css-icon img {
+  position: absolute;
+  width: 86px;
+  left: 410px;
+  top: 50px;
+  animation-name: css;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes css {
+  0% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  20% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(520px); 
+    }
+  50% { opacity: 0.5; }
+  60% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END CSS */
+
+/* MONGO DB */
+.mongo-icon img {
+  position: absolute;
+  width: 86px;
+  left: 380px;
+  top: 35px;
+  animation-name: mongo;
+  animation-duration: 23s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mongo {
+  0% { 
+    opacity: 0;
+    transform: translateY(540px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(540px); 
+    }
+  30% { 
+    opacity: 0;
+    transform: translateY(540px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(540px); 
+    }
+  50% { 
+    opacity: 0;
+    transform: translateY(540px); 
+    }
+  60% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END MONGO DB */
+
+
+/* *************************************
+********** GRAPHIC DESIGN *************
+************************************* */
 
 /* ILLUSTRATOR */
 .illustrator-icon img {

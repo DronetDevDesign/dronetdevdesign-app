@@ -43,6 +43,20 @@
   font-family: 'Poppins';
 }
 
+body {
+  background: rgb(0, 2, 63);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 2, 63, 1) 0%,
+    rgba(27, 17, 66, 1) 24%,
+    rgba(48, 25, 114, 1) 43%,
+    rgba(68, 52, 100, 1) 61%,
+    rgba(139, 50, 89, 1) 82%,
+    rgba(204, 114, 54, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
