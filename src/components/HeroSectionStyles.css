@@ -123,7 +123,7 @@ body {
   left: 445px;
   top: 125px;
   animation-name: react;
-  animation-duration: 13s;
+  animation-duration: 10s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
 }
@@ -146,7 +146,7 @@ body {
   left: 475px;
   top: 130px;
   animation-name: node;
-  animation-duration: 16s;
+  animation-duration: 13s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
 }
@@ -760,11 +760,381 @@ h1 .thinner-heading {
     top: 35px;
   }
 
+  .react-icon img {
+    width: 70px;
+    left: 360px;
+    top: 125px;
+
+  }
+
+  @keyframes react {
+    0% { 
+      opacity: 0;
+      transform: translateY(400px); 
+      }
+    10% { opacity: 0.75; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  /* NODE JS */
+.node-icon img {
+  width: 70px;
+  left: 375px;
+  top: 130px;
+}
+
+@keyframes node {
+  0% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  35% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END NODE JS */
+
+/* EXPRESS JS */
+.express-icon img {
+  width: 70px;
+  left: 360px;
+  top: 170px;
+}
+
+@keyframes express {
+  0% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  50% { opacity: 0.5; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END EXPRESS JS */
+
+/* CSS */
+.css-icon img {
+  width: 70px;
+  left: 320px;
+  top: 200px;
+}
+
+@keyframes css {
+  0% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  20% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  50% { opacity: 0.5; }
+  60% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END CSS */
+
+/* MONGO DB */
+.mongo-icon img {
+  width: 70px;
+  left: 330px;
+  top: 100px;
+}
+
+@keyframes mongo {
+  0% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  30% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  50% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  60% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END MONGO DB */
+
+/* HTML */
+.html-icon img {
+  width: 70px;
+  left: 345px;
+  top: 150px;
+}
+
+@keyframes html {
+  0% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END HTML */
+
   .illustrator-icon img {
     width: 70px;
     left: 190px;
     top: 85px;
   }
+
+  @keyframes illustrator {
+  0% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  10% { opacity: 0.5; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* XD */
+.xd-icon img {
+  position: absolute;
+  width: 70px;
+  left: 175px;
+  top: 150px;
+  animation-name: xd;
+  animation-duration: 22s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes xd {
+  0% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  20% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END XD */
+
+/* PHOTOSHOP */
+.photoshop-icon img {
+  position: absolute;
+  width: 70px;
+  left: 210px;
+  top: 75px;
+  animation-name: photoshop;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes photoshop {
+  0% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END PHOTOSHOP */
+
+/* SKETCH */
+.sketch-icon img {
+  position: absolute;
+  width: 70px;
+  left: 200px;
+  top: 250px;
+  animation-name: sketch;
+  animation-duration: 17s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sketch {
+  0% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END SKETCH */
+
+/* AFFINITY */
+.affinity-icon img {
+  position: absolute;
+  width: 70px;
+  left: 232px;
+  top: 300px;
+  animation-name: affinity;
+  animation-duration: 20s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes affinity {
+  0% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  20% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  40% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END AFFINITY */
+
+/* IN DESIGN */
+.indesign-icon img {
+  position: absolute;
+  width: 70px;
+  left: 250px;
+  top: 155px;
+  animation-name: indesign;
+  animation-duration: 18s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes indesign {
+  0% { 
+    opacity: 0;
+    transform: translateY(330px); 
+    }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END IN DESIGN */
+
+/* BLENDER */
+.blender-icon img {
+  position: absolute;
+  width: 70px;
+  left: 230px;
+  top: 260px;
+  animation-name: blender;
+  animation-duration: 12s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blender {
+  0% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END BLENDER */
 
   .glow img {
     width: 280px;
@@ -830,7 +1200,7 @@ h1 .thinner-heading {
   /* ANIMATION */
   .javascript-icon img {
     width: 65px;
-    left: 228px;
+    left: 240px;
     top: 35px;
   }
 
@@ -845,11 +1215,371 @@ h1 .thinner-heading {
   100% { opacity: 0; }
 }
 
+  .react-icon img {
+    width: 65px;
+    left: 340px;
+    top: 125px;
+
+  }
+
+  @keyframes react {
+    0% { 
+      opacity: 0;
+      transform: translateY(350px); 
+      }
+    10% { opacity: 0.75; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  /* NODE JS */
+.node-icon img {
+  width: 65px;
+  left: 335px;
+  top: 130px;
+}
+
+@keyframes node {
+  0% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  35% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END NODE JS */
+
+/* EXPRESS JS */
+.express-icon img {
+  width: 65px;
+  left: 315px;
+  top: 170px;
+}
+
+@keyframes express {
+  0% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  50% { opacity: 0.5; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END EXPRESS JS */
+
+/* CSS */
+.css-icon img {
+  width: 65px;
+  left: 300px;
+  top: 200px;
+}
+
+@keyframes css {
+  0% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  20% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  50% { opacity: 0.5; }
+  60% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END CSS */
+
+/* MONGO DB */
+.mongo-icon img {
+  width: 65px;
+  left: 290px;
+  top: 100px;
+}
+
+@keyframes mongo {
+  0% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  30% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  50% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  60% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END MONGO DB */
+
+/* HTML */
+.html-icon img {
+  width: 65px;
+  left: 275px;
+  top: 150px;
+}
+
+@keyframes html {
+  0% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END HTML */
+
   .illustrator-icon img {
     width: 65px;
     left: 170px;
     top: 85px;
   }
+
+/* XD */
+.xd-icon img {
+  position: absolute;
+  width: 65px;
+  left: 155px;
+  top: 150px;
+  animation-name: xd;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes xd {
+  0% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  20% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END XD */
+
+/* PHOTOSHOP */
+.photoshop-icon img {
+  position: absolute;
+  width: 65px;
+  left: 205px;
+  top: 75px;
+  animation-name: photoshop;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes photoshop {
+  0% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(400px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END PHOTOSHOP */
+
+/* SKETCH */
+.sketch-icon img {
+  position: absolute;
+  width: 65px;
+  left: 200px;
+  top: 250px;
+  animation-name: sketch;
+  animation-duration: 17s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sketch {
+  0% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END SKETCH */
+
+/* AFFINITY */
+.affinity-icon img {
+  position: absolute;
+  width: 65px;
+  left: 222px;
+  top: 300px;
+  animation-name: affinity;
+  animation-duration: 20s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes affinity {
+  0% { 
+    opacity: 0;
+    transform: translateY(180px); 
+    }
+  20% { 
+    opacity: 0;
+    transform: translateY(180px); 
+    }
+  40% { 
+    opacity: 0;
+    transform: translateY(180px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END AFFINITY */
+
+/* IN DESIGN */
+.indesign-icon img {
+  position: absolute;
+  width: 65px;
+  left: 185px;
+  top: 155px;
+  animation-name: indesign;
+  animation-duration: 18s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes indesign {
+  0% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END IN DESIGN */
+
+/* BLENDER */
+.blender-icon img {
+  position: absolute;
+  width: 65px;
+  left: 230px;
+  top: 220px;
+  animation-name: blender;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blender {
+  0% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END BLENDER */
 
   .glow img {
     width: 250px;
@@ -918,15 +1648,375 @@ h1 .thinner-heading {
   /* ANIMATION */
   .javascript-icon img {
     width: 65px;
-    left: 242px;
+    left: 270px;
     top: 35px;
   }
+
+  .react-icon img {
+    width: 65px;
+    left: 375px;
+    top: 125px;
+
+  }
+
+  @keyframes react {
+    0% { 
+      opacity: 0;
+      transform: translateY(375px); 
+      }
+    10% { opacity: 0.75; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  /* NODE JS */
+.node-icon img {
+  width: 65px;
+  left: 360px;
+  top: 130px;
+}
+
+@keyframes node {
+  0% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  35% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END NODE JS */
+
+/* EXPRESS JS */
+.express-icon img {
+  width: 65px;
+  left: 355px;
+  top: 170px;
+}
+
+@keyframes express {
+  0% { 
+    opacity: 0;
+    transform: translateY(320px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(320px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(320px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(320px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(320px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(320px); 
+    }
+  50% { opacity: 0.5; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END EXPRESS JS */
+
+/* CSS */
+.css-icon img {
+  width: 65px;
+  left: 330px;
+  top: 200px;
+}
+
+@keyframes css {
+  0% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  20% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  50% { opacity: 0.5; }
+  60% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END CSS */
+
+/* MONGO DB */
+.mongo-icon img {
+  width: 65px;
+  left: 300px;
+  top: 100px;
+}
+
+@keyframes mongo {
+  0% { 
+    opacity: 0;
+    transform: translateY(390px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(390px); 
+    }
+  30% { 
+    opacity: 0;
+    transform: translateY(390px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(390px); 
+    }
+  50% { 
+    opacity: 0;
+    transform: translateY(390px); 
+    }
+  60% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END MONGO DB */
+
+/* HTML */
+.html-icon img {
+  width: 65px;
+  left: 285px;
+  top: 150px;
+}
+
+@keyframes html {
+  0% { 
+    opacity: 0;
+    transform: translateY(360px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(360px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(360px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END HTML */
 
   .illustrator-icon img {
     width: 65px;
     left: 180px;
     top: 85px;
   }
+
+/* XD */
+.xd-icon img {
+  position: absolute;
+  width: 65px;
+  left: 170px;
+  top: 150px;
+  animation-name: xd;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes xd {
+  0% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  20% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END XD */
+
+/* PHOTOSHOP */
+.photoshop-icon img {
+  position: absolute;
+  width: 65px;
+  left: 235px;
+  top: 55px;
+  animation-name: photoshop;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes photoshop {
+  0% { 
+    opacity: 0;
+    transform: translateY(420px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(420px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(420px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END PHOTOSHOP */
+
+/* SKETCH */
+.sketch-icon img {
+  position: absolute;
+  width: 65px;
+  left: 260px;
+  top: 250px;
+  animation-name: sketch;
+  animation-duration: 17s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sketch {
+  0% { 
+    opacity: 0;
+    transform: translateY(260px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(260px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(260px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(260px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END SKETCH */
+
+/* AFFINITY */
+.affinity-icon img {
+  position: absolute;
+  width: 65px;
+  left: 250px;
+  top: 300px;
+  animation-name: affinity;
+  animation-duration: 14s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes affinity {
+  0% { 
+    opacity: 0;
+    transform: translateY(190px); 
+    }
+  20% { 
+    opacity: 0;
+    transform: translateY(190px); 
+    }
+  40% { 
+    opacity: 0;
+    transform: translateY(190px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END AFFINITY */
+
+/* IN DESIGN */
+.indesign-icon img {
+  position: absolute;
+  width: 65px;
+  left: 195px;
+  top: 155px;
+  animation-name: indesign;
+  animation-duration: 18s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes indesign {
+  0% { 
+    opacity: 0;
+    transform: translateY(350px); 
+    }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END IN DESIGN */
+
+/* BLENDER */
+.blender-icon img {
+  position: absolute;
+  width: 65px;
+  left: 223px;
+  top: 220px;
+  animation-name: blender;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blender {
+  0% { 
+    opacity: 0;
+    transform: translateY(320px); 
+    }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END BLENDER */
 
   .glow img {
     width: 272px;
@@ -1006,6 +2096,23 @@ h1 .thinner-heading {
     top: 35px;
   }
 
+  .react-icon img {
+    width: 65px;
+    left: 347px;
+    top: 125px;
+
+  }
+
+  @keyframes react {
+    0% { 
+      opacity: 0;
+      transform: translateY(375px); 
+      }
+    10% { opacity: 0.75; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
   .illustrator-icon img {
     width: 65px;
     left: 180px;
@@ -1083,7 +2190,7 @@ h1 .thinner-heading {
 /* ANIMATION */
   .javascript-icon img {
     width: 50px;
-    left: 180px;
+    left: 190px;
     top: 35px;
   }
 
@@ -1098,9 +2205,205 @@ h1 .thinner-heading {
   100% { opacity: 0; }
 }
 
+  .react-icon img {
+    width: 50px;
+    left: 265px;
+    top: 80px;
+
+  }
+
+  @keyframes react {
+    0% { 
+      opacity: 0;
+      transform: translateY(270px); 
+      }
+    10% { opacity: 0.75; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  /* NODE JS */
+.node-icon img {
+  width: 50px;
+  left: 258px;
+  top: 100px;
+}
+
+@keyframes node {
+  0% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  35% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END NODE JS */
+
+/* EXPRESS JS */
+.express-icon img {
+  width: 50px;
+  left: 247px;
+  top: 100px;
+}
+
+@keyframes express {
+  0% { 
+    opacity: 0;
+    transform: translateY(340px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(340px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(340px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(340px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(340px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(340px); 
+    }
+  50% { opacity: 0.5; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END EXPRESS JS */
+
+/* CSS */
+.css-icon img {
+  width: 50px;
+  left: 225px;
+  top: 150px;
+}
+
+@keyframes css {
+  0% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  20% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  50% { opacity: 0.5; }
+  60% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END CSS */
+
+/* MONGO DB */
+.mongo-icon img {
+  width: 50px;
+  left: 238px;
+  top: 80px;
+}
+
+@keyframes mongo {
+  0% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  30% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  50% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  60% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END MONGO DB */
+
+/* HTML */
+.html-icon img {
+  width: 50px;
+  left: 210px;
+  top: 180px;
+}
+
+@keyframes html {
+  0% { 
+    opacity: 0;
+    transform: translateY(200px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(200px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(200px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END HTML */
+
   .illustrator-icon img {
     width: 50px;
-    left: 130px;
+    left: 133px;
     top: 85px;
   }
 
@@ -1113,6 +2416,170 @@ h1 .thinner-heading {
   75% { opacity: 1; }
   100% { opacity: 0; }
 }
+
+/* XD */
+.xd-icon img {
+  position: absolute;
+  width: 50px;
+  left: 120px;
+  top: 100px;
+  animation-name: xd;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes xd {
+  0% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  20% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END XD */
+
+/* PHOTOSHOP */
+.photoshop-icon img {
+  position: absolute;
+  width: 50px;
+  left: 163px;
+  top: 55px;
+  animation-name: photoshop;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes photoshop {
+  0% { 
+    opacity: 0;
+    transform: translateY(320px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(320px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(320px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END PHOTOSHOP */
+
+/* SKETCH */
+.sketch-icon img {
+  position: absolute;
+  width: 50px;
+  left: 180px;
+  top: 200px;
+  animation-name: sketch;
+  animation-duration: 17s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sketch {
+  0% { 
+    opacity: 0;
+    transform: translateY(150px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(150px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(150px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(150px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END SKETCH */
+
+/* AFFINITY */
+.affinity-icon img {
+  position: absolute;
+  width: 50px;
+  left: 143px;
+  top: 175px;
+  animation-name: affinity;
+  animation-duration: 14s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes affinity {
+  0% { 
+    opacity: 0;
+    transform: translateY(190px); 
+    }
+  20% { 
+    opacity: 0;
+    transform: translateY(190px); 
+    }
+  40% { 
+    opacity: 0;
+    transform: translateY(190px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END AFFINITY */
+
+/* IN DESIGN */
+.indesign-icon img {
+  position: absolute;
+  width: 50px;
+  left: 140px;
+  top: 135px;
+  animation-name: indesign;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes indesign {
+  0% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END IN DESIGN */
+
+/* BLENDER */
+.blender-icon img {
+  position: absolute;
+  width: 50px;
+  left: 175px;
+  top: 130px;
+  animation-name: blender;
+  animation-duration: 11s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blender {
+  0% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END BLENDER */
 
   .glow img {
     width: 199px;
@@ -1194,7 +2661,7 @@ h1 .thinner-heading {
   /* ANIMATION */
   .javascript-icon img {
     width: 50px;
-    left: 165px;
+    left: 172px;
     top: 20px;
   }
 
@@ -1208,6 +2675,202 @@ h1 .thinner-heading {
   75% { opacity: 0.5; }
   100% { opacity: 0; }
 }
+
+  .react-icon img {
+    width: 50px;
+    left: 239px;
+    top: 60px;
+
+  }
+
+  @keyframes react {
+    0% { 
+      opacity: 0;
+      transform: translateY(280px); 
+      }
+    10% { opacity: 0.75; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  /* NODE JS */
+.node-icon img {
+  width: 50px;
+  left: 233px;
+  top: 100px;
+}
+
+@keyframes node {
+  0% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  35% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END NODE JS */
+
+/* EXPRESS JS */
+.express-icon img {
+  width: 50px;
+  left: 227px;
+  top: 75px;
+}
+
+@keyframes express {
+  0% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  50% { opacity: 0.5; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END EXPRESS JS */
+
+/* CSS */
+.css-icon img {
+  width: 50px;
+  left: 197px;
+  top: 100px;
+}
+
+@keyframes css {
+  0% { 
+    opacity: 0;
+    transform: translateY(230px); 
+    }
+  5% { 
+    opacity: 0;
+    transform: translateY(230px); 
+    }
+  10% { 
+    opacity: 0;
+    transform: translateY(230px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(230px); 
+    }
+  20% { 
+    opacity: 0;
+    transform: translateY(230px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(230px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(230px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(230px); 
+    }
+  50% { opacity: 0.5; }
+  60% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END CSS */
+
+/* MONGO DB */
+.mongo-icon img {
+  width: 50px;
+  left: 215px;
+  top: 80px;
+}
+
+@keyframes mongo {
+  0% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  15% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  30% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  50% { 
+    opacity: 0;
+    transform: translateY(270px); 
+    }
+  60% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END MONGO DB */
+
+/* HTML */
+.html-icon img {
+  width: 50px;
+  left: 204px;
+  top: 130px;
+}
+
+@keyframes html {
+  0% { 
+    opacity: 0;
+    transform: translateY(200px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(200px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(200px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END HTML */
 
   .illustrator-icon img {
     width: 50px;
@@ -1224,6 +2887,170 @@ h1 .thinner-heading {
   75% { opacity: 1; }
   100% { opacity: 0; }
 }
+
+/* XD */
+.xd-icon img {
+  position: absolute;
+  width: 50px;
+  left: 115px;
+  top: 100px;
+  animation-name: xd;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes xd {
+  0% { 
+    opacity: 0;
+    transform: translateY(250px); 
+    }
+  20% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END XD */
+
+/* PHOTOSHOP */
+.photoshop-icon img {
+  position: absolute;
+  width: 50px;
+  left: 163px;
+  top: 35px;
+  animation-name: photoshop;
+  animation-duration: 15s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes photoshop {
+  0% { 
+    opacity: 0;
+    transform: translateY(320px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(320px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(320px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END PHOTOSHOP */
+
+/* SKETCH */
+.sketch-icon img {
+  position: absolute;
+  width: 50px;
+  left: 160px;
+  top: 175px;
+  animation-name: sketch;
+  animation-duration: 17s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sketch {
+  0% { 
+    opacity: 0;
+    transform: translateY(150px); 
+    }
+  25% { 
+    opacity: 0;
+    transform: translateY(150px); 
+    }
+  35% { 
+    opacity: 0;
+    transform: translateY(150px); 
+    }
+  45% { 
+    opacity: 0;
+    transform: translateY(150px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END SKETCH */
+
+/* AFFINITY */
+.affinity-icon img {
+  position: absolute;
+  width: 50px;
+  left: 134px;
+  top: 25px;
+  animation-name: affinity;
+  animation-duration: 14s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes affinity {
+  0% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  20% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  40% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  55% { opacity: 0.8; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END AFFINITY */
+
+/* IN DESIGN */
+.indesign-icon img {
+  position: absolute;
+  width: 50px;
+  left: 140px;
+  top: 50px;
+  animation-name: indesign;
+  animation-duration: 10s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes indesign {
+  0% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END IN DESIGN */
+
+/* BLENDER */
+.blender-icon img {
+  position: absolute;
+  width: 50px;
+  left: 175px;
+  top: 100px;
+  animation-name: blender;
+  animation-duration: 11s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blender {
+  0% { 
+    opacity: 0;
+    transform: translateY(300px); 
+    }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+/* END BLENDER */
 
   .glow img {
     width: 180px;
