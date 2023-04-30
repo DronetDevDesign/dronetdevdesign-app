@@ -2421,10 +2421,10 @@ h1 .thinner-heading {
 .xd-icon img {
   position: absolute;
   width: 50px;
-  left: 120px;
+  left: 118px;
   top: 100px;
   animation-name: xd;
-  animation-duration: 15s;
+  animation-duration: 10s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
 }
