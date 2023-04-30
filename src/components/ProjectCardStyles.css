@@ -26,9 +26,8 @@
   width: 500px;
 }
 
-.portfolio-image {
+.portfolio-image img {
   position: relative;
-  overflow: hidden;
   width: 100%;
   height: auto;
   border-radius: 5px;
