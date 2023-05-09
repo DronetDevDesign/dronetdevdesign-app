@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dronetdevdesign-app/static/css/main.7388fc58.css",
-    "main.js": "/dronetdevdesign-app/static/js/main.c512fdfc.js",
+    "main.js": "/dronetdevdesign-app/static/js/main.8a05d72c.js",
     "static/media/mood-flix.jpg": "/dronetdevdesign-app/static/media/mood-flix.a8c061a2c744a25fc643.jpg",
     "static/media/birthday-plan-it-screenshot.jpg": "/dronetdevdesign-app/static/media/birthday-plan-it-screenshot.3d042ec279c7ed01c6ce.jpg",
     "static/media/ron-dronet-photo.png": "/dronetdevdesign-app/static/media/ron-dronet-photo.fa0050e537b3ef14ebfc.png",
     "static/media/hero-section-bkgd.jpg": "/dronetdevdesign-app/static/media/hero-section-bkgd.dd08c1db782cc51d5df1.jpg",
+    "static/media/weather-bee.jpg": "/dronetdevdesign-app/static/media/weather-bee.3f312aa2a62e27673b2b.jpg",
     "static/media/2023-ron-dronet-resume.pdf": "/dronetdevdesign-app/static/media/2023-ron-dronet-resume.981f31f1a7e48a7a1701.pdf",
     "static/media/main-front.png": "/dronetdevdesign-app/static/media/main-front.ca8121b551824db16c8c.png",
     "static/media/mercedes-binge.jpg": "/dronetdevdesign-app/static/media/mercedes-binge.2be868285af7c2873ecb.jpg",
-    "static/media/weather-bee.jpg": "/dronetdevdesign-app/static/media/weather-bee.74c9a9a4ceefc9666c4b.jpg",
     "static/media/main-yellow-glow.png": "/dronetdevdesign-app/static/media/main-yellow-glow.2cb2c414d889111b555f.png",
     "static/media/main-react.png": "/dronetdevdesign-app/static/media/main-react.d50a4317e8c0aad3a21c.png",
     "static/media/main-node.png": "/dronetdevdesign-app/static/media/main-node.a14011251e7fa31fcd04.png",
@@ -28,10 +28,10 @@
     "static/media/main-indesign.png": "/dronetdevdesign-app/static/media/main-indesign.0a3668e8743f092c69b7.png",
     "index.html": "/dronetdevdesign-app/index.html",
     "main.7388fc58.css.map": "/dronetdevdesign-app/static/css/main.7388fc58.css.map",
-    "main.c512fdfc.js.map": "/dronetdevdesign-app/static/js/main.c512fdfc.js.map"
+    "main.8a05d72c.js.map": "/dronetdevdesign-app/static/js/main.8a05d72c.js.map"
   },
   "entrypoints": [
     "static/css/main.7388fc58.css",
-    "static/js/main.c512fdfc.js"
+    "static/js/main.8a05d72c.js"
   ]
 }
