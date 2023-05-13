@@ -4,8 +4,7 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: scroll;
-  /* overflow-y: auto; */
+  overflow-x: hidden;
 }
 
 body {
@@ -24,6 +23,7 @@ body {
   text-align: center;
   align-items: center;
   margin: auto;
+  margin-bottom: 75px;
   /* border: 7px solid green; */
 }
 
@@ -2171,12 +2171,6 @@ h1 .thinner-heading {
 }
 
 @media screen and (max-width: 430px) {
-  .hero-container::before {
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
-    opacity: 0.7;
-  }
-
   .hero-container {
     margin-top: 26%;
   }
@@ -2648,16 +2642,6 @@ h1 .thinner-heading {
 }
 
 @media screen and (max-width: 390px) {
-  body {
-    height: 100vh;  
-  }
-
-  .hero-container::before {
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
-    opacity: 0.7;
-  }
-
   .hero-container {
     margin-top: 22%;
   }
@@ -2668,7 +2652,7 @@ h1 .thinner-heading {
 
   .hero-content {
     width: 100%;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
 
   /* ANIMATION */
