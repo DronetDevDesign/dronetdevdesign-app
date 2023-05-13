@@ -3045,7 +3045,7 @@ h1 .thinner-heading {
 @keyframes blender {
   0% { 
     opacity: 0;
-    transform: translateY(300px); 
+    transform: translateY(275px); 
     }
   50% { opacity: 1; }
   100% { opacity: 0; }
