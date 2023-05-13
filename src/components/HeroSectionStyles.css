@@ -2170,6 +2170,12 @@ h1 .thinner-heading {
 }
 
 @media screen and (max-width: 430px) {
+  .hero-container::before {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    opacity: 0.7;
+  }
+  
   .hero-container {
     margin-top: 26%;
   }
@@ -2642,7 +2648,13 @@ h1 .thinner-heading {
 
 @media screen and (max-width: 390px) {
   body {
-    height: 100vh;
+    height: 100vh;  
+  }
+
+  .hero-container::before {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    opacity: 0.7;
   }
 
   .hero-container {
