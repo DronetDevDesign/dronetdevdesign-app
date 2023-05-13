@@ -26,7 +26,7 @@ body {
   /* border: 7px solid green; */
 }
 
-.hero-container::before {
+.hero-container::before { 
   content: "";
   position: absolute;
   top: 500px;
@@ -37,9 +37,9 @@ body {
   -webkit-filter: blur(6px);
   opacity: 0.6;
   background: rgb(0,0,0);
-  background: -moz-linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.19791666666666663) 4%, rgba(0,0,0,0.38559173669467783) 13%, rgba(0,0,0,0.4556197478991597) 21%, rgba(0,0,0,0.17550770308123254) 41%, rgba(0,0,0,0) 92%);
-  background: -webkit-linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.19791666666666663) 4%, rgba(0,0,0,0.38559173669467783) 13%, rgba(0,0,0,0.4556197478991597) 21%, rgba(0,0,0,0.17550770308123254) 41%, rgba(0,0,0,0) 92%);
-  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.19791666666666663) 4%, rgba(0,0,0,0.38559173669467783) 13%, rgba(0,0,0,0.4556197478991597) 21%, rgba(0,0,0,0.17550770308123254) 41%, rgba(0,0,0,0) 92%);
+  background: -moz-linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.19791666666666663) 4%, rgba(0,0,0,0.38559173669467783) 13%, rgba(0,0,0,0.4556197478991597) 21%, rgba(0,0,0,0.4108018207282913) 34%, rgba(0,0,0,0.17550770308123254) 43%, rgba(0,0,0,0) 92%);
+  background: -webkit-linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.19791666666666663) 4%, rgba(0,0,0,0.38559173669467783) 13%, rgba(0,0,0,0.4556197478991597) 21%, rgba(0,0,0,0.4108018207282913) 34%, rgba(0,0,0,0.17550770308123254) 43%, rgba(0,0,0,0) 92%);
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.19791666666666663) 4%, rgba(0,0,0,0.38559173669467783) 13%, rgba(0,0,0,0.4556197478991597) 21%, rgba(0,0,0,0.4108018207282913) 34%, rgba(0,0,0,0.17550770308123254) 43%, rgba(0,0,0,0) 92%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
   background-repeat: no-repeat;
   z-index: -35;
@@ -2175,7 +2175,7 @@ h1 .thinner-heading {
     -webkit-filter: blur(0px);
     opacity: 0.7;
   }
-  
+
   .hero-container {
     margin-top: 26%;
   }
